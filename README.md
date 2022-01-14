@@ -2,6 +2,8 @@
 
 Render [Portable Text](https://portabletext.org/) with React Native.
 
+Utilizes [@portabletext/react](https://github.com/portabletext/react-portabletext) under the hood, and thus has the exact same API, but will render React Native views instead of HTML.
+
 ## Installation
 
 ```
@@ -13,8 +15,19 @@ npm install --save @portabletext/react-native
 ```js
 import {PortableText} from '@portabletext/react-native'
 
-<PortableText value={[/* array of portable text blocks */]}>
+<PortableText
+  value={[/* array of portable text blocks */]}
+  components={/* optional object of custom components to use */}
+/>
 ```
+
+## Styling the output
+
+The rendered views has very little or no styling applied, so you will quite often want to pass [custom components](#customizing-components) to override the built-in ones.
+
+## Customizing components
+
+Customizing components are done in the same way as in [@portabletext/react](https://github.com/portabletext/react-portabletext#customizing-components) - see the [README](https://github.com/portabletext/react-portabletext#customizing-components) for more details.
 
 ## License
 
