@@ -1,0 +1,99 @@
+{
+  "name": "@portabletext/react-native",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Render Portable Text with React Native",
+  "main": "./dist/react-native-portable-text.esm.js",
+  "module": "./dist/react-native-portable-text.esm.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint . && tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run lint",
+    "build": "vite build",
+    "start": "vite demo",
+    "test": "jest",
+    "prettify": "prettier --write src/**/*.ts src/**/*.tsx test/**/*.ts test/**/*.tsx",
+    "prettify-check": "prettier --check src/**/*.ts src/**/*.tsx test/**/*.ts test/**/*.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/portabletext/react-native-portabletext.git"
+  },
+  "keywords": [
+    "portable-text"
+  ],
+  "author": "Sanity.io <hello@sanity.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@portabletext/react": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.37",
+    "@types/react-native": "^0.66.12",
+    "@types/react-test-renderer": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "babel-jest": "^27.4.6",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-sanity": "^5.1.0",
+    "eslint-plugin-react": "^7.27.1",
+    "jest": "^27.4.7",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-native": "^0.66.4",
+    "react-test-renderer": "^17.0.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.4",
+    "vite-dts": "^1.0.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-native": "^0.66.0"
+  },
+  "bugs": {
+    "url": "https://github.com/portabletext/react-native-portabletext/issues"
+  },
+  "homepage": "https://github.com/portabletext/react-native-portabletext#readme",
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "modules": true
+      }
+    },
+    "extends": [
+      "sanity",
+      "sanity/react",
+      "sanity/typescript",
+      "prettier"
+    ],
+    "ignorePatterns": [
+      "lib/**/"
+    ]
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@react-native|react-native)).*/"
+    ],
+    "snapshotFormat": {
+      "printBasicPrototype": false
+    }
+  }
+}
