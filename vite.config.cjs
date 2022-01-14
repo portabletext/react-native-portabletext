@@ -8,10 +8,10 @@ module.exports = defineConfig({
       entry: path.resolve(__dirname, 'src/index.ts'),
       formats: ['esm'],
       name: 'react-native-portable-text',
-      fileName: (format) => `react-portable-text.${format}.js`,
+      fileName: (format) => `react-native-portable-text.${format}.js`,
     },
     rollupOptions: {
-      external: ['react'],
+      external: ['react', 'react-native'],
       output: {
         // Since we publish our ./src folder, there's no point in bloating sourcemaps with another copy of it.
         sourcemapExcludeSources: true,

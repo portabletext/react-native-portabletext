@@ -2,7 +2,8 @@
   "compilerOptions": {
     "strict": true,
     "esModuleInterop": true,
-    "lib": ["ES2018"],
+    "isolatedModules": true,
+    "lib": ["ES2017"],
     "jsx": "react-native"
   }
 }
