@@ -1,5 +1,6 @@
 import React from 'react'
-import type {TypedObject, PortableTextBlock, PortableTextProps} from '@portabletext/react'
+import type {PortableTextProps} from '@portabletext/react'
+import type {TypedObject, PortableTextBlock} from '@portabletext/types'
 import {PortableText as BasePortableText, PortableTextComponentsProvider} from '@portabletext/react'
 import {defaultComponents} from './components/defaults'
 

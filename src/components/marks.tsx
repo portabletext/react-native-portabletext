@@ -1,6 +1,7 @@
 import React, {useCallback} from 'react'
 import {Text, Linking} from 'react-native'
-import type {PortableTextMarkComponent, TypedObject} from '@portabletext/react'
+import type {PortableTextMarkComponent} from '@portabletext/react'
+import type {TypedObject} from '@portabletext/types'
 import {markStyles} from './styles'
 
 interface DefaultLink extends TypedObject {

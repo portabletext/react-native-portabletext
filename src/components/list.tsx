@@ -1,10 +1,8 @@
 import React from 'react'
 import {View, Text} from 'react-native'
-import type {
-  ListItemType,
-  PortableTextListComponent,
-  PortableTextListItemComponent,
-} from '@portabletext/react'
+import type {PortableTextListComponent, PortableTextListItemComponent} from '@portabletext/react'
+import type {PortableTextListItemType} from '@portabletext/types'
+
 import {listStyles} from './styles'
 
 export const DefaultList: PortableTextListComponent = ({value, children}) => {
@@ -13,7 +11,10 @@ export const DefaultList: PortableTextListComponent = ({value, children}) => {
   return <View style={[base, padding]}>{children}</View>
 }
 
-export const defaultListItems: Record<ListItemType, PortableTextListItemComponent | undefined> = {
+export const defaultListItems: Record<
+  PortableTextListItemType,
+  PortableTextListItemComponent | undefined
+> = {
   bullet: ({children}) => (
     <View style={listStyles.listItemWrapper}>
       <Text style={listStyles.bulletListIcon}>{'\u00B7'}</Text>

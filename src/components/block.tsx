@@ -1,6 +1,8 @@
 import React from 'react'
 import {View, Text} from 'react-native'
-import type {PortableTextBlock, PortableTextComponent, BlockStyle} from '@portabletext/react'
+import type {PortableTextComponent} from '@portabletext/react'
+import type {PortableTextBlock, PortableTextBlockStyle} from '@portabletext/types'
+
 import {blockStyles, textStyles} from './styles'
 
 type BlockStyleName = keyof typeof blockStyles
@@ -17,7 +19,7 @@ export const DefaultBlock: PortableTextComponent<PortableTextBlock> = ({children
 }
 
 export const defaultBlockStyles: Record<
-  BlockStyle,
+  PortableTextBlockStyle,
   PortableTextComponent<PortableTextBlock> | undefined
 > = {
   normal: DefaultBlock,
