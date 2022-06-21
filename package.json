@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "lint": "eslint . && tsc --noEmit",
-    "prepublishOnly": "npm run build && npm run lint",
+    "prepublishOnly": "npm run build",
     "build": "vite build -c ./vite.config.cjs",
     "test": "jest",
     "prettify": "prettier --write src/**/*.ts src/**/*.tsx test/**/*.ts test/**/*.tsx",
