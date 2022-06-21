@@ -55,8 +55,8 @@
     "vite-dts": "^1.0.4"
   },
   "peerDependencies": {
-    "react": "^17.0.0",
-    "react-native": "^0.66.0"
+    "react": "^17.0.0 || ^18.0.0",
+    "react-native": "^0.66.0 || ^0.67.0 || ^0.68.0"
   },
   "bugs": {
     "url": "https://github.com/portabletext/react-native-portabletext/issues"
