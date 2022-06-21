@@ -2,7 +2,7 @@
   "name": "@portabletext/react-native",
   "version": "1.0.0",
   "type": "module",
-  "description": "Render Portable Text with React Native",
+  "description": "*Experimental*: Render Portable Text with React Native",
   "main": "./dist/react-native-portable-text.esm.js",
   "module": "./dist/react-native-portable-text.esm.js",
   "files": [
