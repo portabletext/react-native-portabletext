@@ -32,9 +32,9 @@
     "@portabletext/types": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@babel/preset-env": "^7.16.8",
-    "@babel/preset-typescript": "^7.16.7",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
     "@types/jest": "^27.4.0",
     "@types/react": "^17.0.37",
     "@types/react-native": "^0.66.12",
