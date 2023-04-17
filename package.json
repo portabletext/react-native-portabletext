@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "@portabletext/react": "^2.0.0",
-    "@portabletext/types": "^1.0.3"
+    "@portabletext/types": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
