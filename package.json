@@ -31,10 +31,15 @@
     "@portabletext/react": "1",
     "@portabletext/types": "1"
   },
+  "release": {
+    "branches": ["main"],
+    "extends": "@sanity/semantic-release-preset"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
     "@babel/preset-typescript": "^7.16.7",
+    "@sanity/semantic-release-preset": "^4.1.1",
     "@types/jest": "^29.0.0",
     "@types/react": "^18.0.0",
     "@types/react-native": "^0.71.0",
