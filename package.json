@@ -28,8 +28,8 @@
   "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT",
   "dependencies": {
-    "@portabletext/react": "^2.0.0",
-    "@portabletext/types": "^2.0.0"
+    "@portabletext/react": "1",
+    "@portabletext/types": "1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",

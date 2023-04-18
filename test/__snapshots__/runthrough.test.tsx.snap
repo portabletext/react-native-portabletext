@@ -1010,9 +1010,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
   >
     <Text
       style={{}}
-    >
-      
-    </Text>
+    />
   </View>,
   <View
     style={
@@ -1545,7 +1543,6 @@ exports[`never mutates input: hardBreaks 1`] = `
       
 
     </Text>
-    
     <Text>
       
 
