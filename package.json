@@ -57,7 +57,7 @@
     "react-native": "^0.71.0",
     "react-test-renderer": "^18.0.0",
     "typescript": "^5.0.0",
-    "vite": "^2.7.4",
+    "vite": "^4.0.0",
     "vite-dts": "^1.0.4"
   },
   "peerDependencies": {
