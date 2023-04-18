@@ -28,7 +28,7 @@
   "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT",
   "dependencies": {
-    "@portabletext/react": "1",
+    "@portabletext/react": "2",
     "@portabletext/types": "1"
   },
   "release": {
