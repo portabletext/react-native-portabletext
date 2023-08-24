@@ -16,8 +16,8 @@
   "license": "MIT",
   "author": "Sanity.io <hello@sanity.io>",
   "type": "module",
-  "main": "./dist/react-native-portable-text.esm.js",
-  "module": "./dist/react-native-portable-text.esm.js",
+  "main": "./dist/react-native-portable-text.es.js",
+  "module": "./dist/react-native-portable-text.es.js",
   "files": [
     "dist"
   ],
