@@ -5,6 +5,16 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/portabletext/react-native-portabletext/compare/v1.0.0...v1.1.0) (2023-08-24)
+
+### Features
+
+- update Portable Text dependencies ([#27](https://github.com/portabletext/react-native-portabletext/issues/27)) ([caa183a](https://github.com/portabletext/react-native-portabletext/commit/caa183aab7044586ce32bc3860dfc53cb2294a11))
+
+### Bug Fixes
+
+- add provenance ([56b28f2](https://github.com/portabletext/react-native-portabletext/commit/56b28f22009f90aefadbaf9ea8ea7909fc7541c2))
+
 ## [1.0.0](https://github.com/portabletext/react-native-portabletext/compare/v0.0.3...v1.0.0) (2023-04-18)
 
 ### ⚠ BREAKING CHANGES
