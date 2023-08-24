@@ -5725,7 +5725,7 @@ packages:
       '@babel/register': 7.22.5(@babel/core@7.22.10)
       babel-core: 7.0.0-bridge.0(@babel/core@7.22.10)
       chalk: 4.1.2
-      flow-parser: 0.206.0
+      flow-parser: 0.215.1
       graceful-fs: 4.2.11
       micromatch: 4.0.5
       neo-async: 2.6.2
