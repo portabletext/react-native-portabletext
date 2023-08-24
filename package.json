@@ -1,8 +1,21 @@
 {
   "name": "@portabletext/react-native",
   "version": "1.0.0",
-  "type": "module",
   "description": "*Experimental*: Render Portable Text with React Native",
+  "keywords": [
+    "portable-text"
+  ],
+  "homepage": "https://github.com/portabletext/react-native-portabletext#readme",
+  "bugs": {
+    "url": "https://github.com/portabletext/react-native-portabletext/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portabletext/react-native-portabletext.git"
+  },
+  "license": "MIT",
+  "author": "Sanity.io <hello@sanity.io>",
+  "type": "module",
   "main": "./dist/react-native-portable-text.esm.js",
   "module": "./dist/react-native-portable-text.esm.js",
   "files": [
@@ -11,31 +24,58 @@
     "README.md"
   ],
   "scripts": {
-    "lint": "eslint .",
-    "type-check": "tsc --noEmit",
-    "prepublishOnly": "pnpm build",
-    "format": "prettier --write --cache --ignore-unknown .",
     "build": "vite build -c ./vite.config.cjs",
-    "test": "jest"
+    "format": "prettier --write --cache --ignore-unknown .",
+    "lint": "eslint .",
+    "prepublishOnly": "pnpm build",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/portabletext/react-native-portabletext.git"
+  "prettier": {
+    "bracketSpacing": false,
+    "plugins": [
+      "prettier-plugin-packagejson"
+    ],
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
   },
-  "keywords": [
-    "portable-text"
-  ],
-  "author": "Sanity.io <hello@sanity.io>",
-  "license": "MIT",
-  "dependencies": {
-    "@portabletext/react": "^1.0.0",
-    "@portabletext/types": "^1.0.0"
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaFeatures": {
+        "modules": true
+      },
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    },
+    "extends": [
+      "sanity",
+      "sanity/react",
+      "sanity/typescript",
+      "prettier"
+    ],
+    "ignorePatterns": [
+      "lib/**/"
+    ]
   },
   "release": {
     "branches": [
       "main"
     ],
     "extends": "@sanity/semantic-release-preset"
+  },
+  "jest": {
+    "preset": "react-native",
+    "snapshotFormat": {
+      "printBasicPrototype": false
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@react-native|react-native)).*/"
+    ]
+  },
+  "dependencies": {
+    "@portabletext/react": "^1.0.0",
+    "@portabletext/types": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
@@ -68,47 +108,7 @@
     "react": "^17 || ^18",
     "react-native": "^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71"
   },
-  "bugs": {
-    "url": "https://github.com/portabletext/react-native-portabletext/issues"
-  },
-  "homepage": "https://github.com/portabletext/react-native-portabletext#readme",
-  "prettier": {
-    "semi": false,
-    "plugins": [
-      "prettier-plugin-packagejson"
-    ],
-    "printWidth": 100,
-    "bracketSpacing": false,
-    "singleQuote": true
-  },
-  "eslintConfig": {
-    "parserOptions": {
-      "ecmaVersion": 9,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "modules": true
-      }
-    },
-    "extends": [
-      "sanity",
-      "sanity/react",
-      "sanity/typescript",
-      "prettier"
-    ],
-    "ignorePatterns": [
-      "lib/**/"
-    ]
-  },
   "packageManager": "pnpm@8.6.12",
-  "jest": {
-    "preset": "react-native",
-    "transformIgnorePatterns": [
-      "/node_modules/(?!(@react-native|react-native)).*/"
-    ],
-    "snapshotFormat": {
-      "printBasicPrototype": false
-    }
-  },
   "publishConfig": {
     "access": "public",
     "provenance": true
