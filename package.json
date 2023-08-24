@@ -1,6 +1,6 @@
 {
   "name": "@portabletext/react-native",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "*Experimental*: Render Portable Text with React Native",
   "keywords": [
     "portable-text"
@@ -16,13 +16,13 @@
   "license": "MIT",
   "author": "Sanity.io <hello@sanity.io>",
   "type": "module",
-  "main": "./dist/react-native-portable-text.esm.js",
-  "module": "./dist/react-native-portable-text.esm.js",
+  "main": "./dist/react-native-portable-text.es.js",
+  "module": "./dist/react-native-portable-text.es.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "vite build -c ./vite.config.cjs",
+    "build": "vite build -c ./vite.config.ts",
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint .",
     "prepublishOnly": "pnpm build",
@@ -76,7 +76,7 @@
     "@typescript-eslint/parser": "^6.4.1",
     "@vitejs/plugin-react": "^4.0.4",
     "eslint": "^8.47.0",
-    "eslint-config-prettier": "^8.10.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-config-sanity": "^6.0.0",
     "eslint-plugin-react": "^7.33.2",
     "prettier": "^3.0.2",
@@ -87,7 +87,7 @@
     "semantic-release": "^21.0.9",
     "typescript": "^5.1.6",
     "vite": "^4.4.9",
-    "vite-dts": "^1.0.4",
+    "vite-plugin-dts": "^3.5.2",
     "vitest": "^0.34.2",
     "vitest-react-native": "^0.1.2"
   },
