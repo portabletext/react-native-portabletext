@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "strict": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "lib": ["ES2017"],
