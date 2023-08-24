@@ -1,35 +1,60 @@
 {
   "name": "@portabletext/react-native",
   "version": "1.0.0",
-  "type": "module",
   "description": "*Experimental*: Render Portable Text with React Native",
-  "main": "./dist/react-native-portable-text.esm.js",
-  "module": "./dist/react-native-portable-text.esm.js",
-  "files": [
-    "dist",
-    "src",
-    "README.md"
+  "keywords": [
+    "portable-text"
   ],
-  "scripts": {
-    "lint": "eslint . && tsc --noEmit",
-    "prepublishOnly": "npm run build",
-    "build": "vite build -c ./vite.config.cjs",
-    "test": "jest",
-    "prettify": "prettier --write src/**/*.ts src/**/*.tsx test/**/*.ts test/**/*.tsx",
-    "prettify-check": "prettier --check src/**/*.ts src/**/*.tsx test/**/*.ts test/**/*.tsx"
+  "homepage": "https://github.com/portabletext/react-native-portabletext#readme",
+  "bugs": {
+    "url": "https://github.com/portabletext/react-native-portabletext/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/portabletext/react-native-portabletext.git"
   },
-  "keywords": [
-    "portable-text"
-  ],
-  "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT",
-  "dependencies": {
-    "@portabletext/react": "^3.0.2",
-    "@portabletext/types": "^2.0.2"
+  "author": "Sanity.io <hello@sanity.io>",
+  "type": "module",
+  "main": "./dist/react-native-portable-text.esm.js",
+  "module": "./dist/react-native-portable-text.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build -c ./vite.config.cjs",
+    "format": "prettier --write --cache --ignore-unknown .",
+    "lint": "eslint .",
+    "prepublishOnly": "pnpm build",
+    "test": "jest",
+    "type-check": "tsc --noEmit"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "plugins": [
+      "prettier-plugin-packagejson"
+    ],
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaFeatures": {
+        "modules": true
+      },
+      "ecmaVersion": 9,
+      "sourceType": "module"
+    },
+    "extends": [
+      "sanity",
+      "sanity/react",
+      "sanity/typescript",
+      "prettier"
+    ],
+    "ignorePatterns": [
+      "lib/**/"
+    ]
   },
   "release": {
     "branches": [
@@ -37,11 +62,24 @@
     ],
     "extends": "@sanity/semantic-release-preset"
   },
+  "jest": {
+    "preset": "react-native",
+    "snapshotFormat": {
+      "printBasicPrototype": false
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@react-native|react-native)).*/"
+    ]
+  },
+  "dependencies": {
+    "@portabletext/react": "^3.0.7",
+    "@portabletext/types": "^2.0.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
     "@babel/preset-typescript": "^7.16.7",
-    "@sanity/semantic-release-preset": "^4.1.1",
+    "@sanity/semantic-release-preset": "^4.1.3",
     "@types/jest": "^29.0.0",
     "@types/react": "^18.0.0",
     "@types/react-native": "^0.71.0",
@@ -55,9 +93,11 @@
     "eslint-plugin-react": "^7.27.1",
     "jest": "^29.0.0",
     "prettier": "^2.5.1",
+    "prettier-plugin-packagejson": "^2.4.2",
     "react": "^18.0.0",
     "react-native": "^0.71.0",
     "react-test-renderer": "^18.0.0",
+    "semantic-release": "^21.0.9",
     "typescript": "^5.0.0",
     "vite": "^2.7.4",
     "vite-dts": "^1.0.4"
@@ -66,41 +106,9 @@
     "react": "^17 || ^18",
     "react-native": "^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71"
   },
-  "bugs": {
-    "url": "https://github.com/portabletext/react-native-portabletext/issues"
-  },
-  "homepage": "https://github.com/portabletext/react-native-portabletext#readme",
-  "prettier": {
-    "semi": false,
-    "printWidth": 100,
-    "bracketSpacing": false,
-    "singleQuote": true
-  },
-  "eslintConfig": {
-    "parserOptions": {
-      "ecmaVersion": 9,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "modules": true
-      }
-    },
-    "extends": [
-      "sanity",
-      "sanity/react",
-      "sanity/typescript",
-      "prettier"
-    ],
-    "ignorePatterns": [
-      "lib/**/"
-    ]
-  },
-  "jest": {
-    "preset": "react-native",
-    "transformIgnorePatterns": [
-      "/node_modules/(?!(@react-native|react-native)).*/"
-    ],
-    "snapshotFormat": {
-      "printBasicPrototype": false
-    }
+  "packageManager": "pnpm@8.6.12",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
