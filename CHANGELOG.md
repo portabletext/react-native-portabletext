@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/portabletext/react-native-portabletext/compare/v1.1.0...v1.1.1) (2023-08-24)
+
+### Bug Fixes
+
+- correct `main` and `module` pkg json paths ([1080f87](https://github.com/portabletext/react-native-portabletext/commit/1080f8785661956c918da4ead4b0cbea3f4246ea))
+
 ## [1.1.0](https://github.com/portabletext/react-native-portabletext/compare/v1.0.0...v1.1.0) (2023-08-24)
 
 ### Features
