@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`never mutates input: allBasicMarks 1`] = `
+exports[`never mutates input > allBasicMarks 1`] = `
 <View
   style={
     {
@@ -73,7 +73,7 @@ exports[`never mutates input: allBasicMarks 1`] = `
 </View>
 `;
 
-exports[`never mutates input: allDefaultBlockStyles 1`] = `
+exports[`never mutates input > allDefaultBlockStyles 1`] = `
 [
   <View
     style={
@@ -228,7 +228,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
 ]
 `;
 
-exports[`never mutates input: basicBulletList 1`] = `
+exports[`never mutates input > basicBulletList 1`] = `
 [
   <View
     style={
@@ -352,7 +352,7 @@ exports[`never mutates input: basicBulletList 1`] = `
 ]
 `;
 
-exports[`never mutates input: basicMarkMultipleAdjacentSpans 1`] = `
+exports[`never mutates input > basicMarkMultipleAdjacentSpans 1`] = `
 <View
   style={
     {
@@ -378,7 +378,7 @@ exports[`never mutates input: basicMarkMultipleAdjacentSpans 1`] = `
 </View>
 `;
 
-exports[`never mutates input: basicMarkNestedMarks 1`] = `
+exports[`never mutates input > basicMarkNestedMarks 1`] = `
 <View
   style={
     {
@@ -412,7 +412,7 @@ exports[`never mutates input: basicMarkNestedMarks 1`] = `
 </View>
 `;
 
-exports[`never mutates input: basicMarkSingleSpan 1`] = `
+exports[`never mutates input > basicMarkSingleSpan 1`] = `
 <View
   style={
     {
@@ -440,7 +440,7 @@ exports[`never mutates input: basicMarkSingleSpan 1`] = `
 </View>
 `;
 
-exports[`never mutates input: basicNumberedList 1`] = `
+exports[`never mutates input > basicNumberedList 1`] = `
 [
   <View
     style={
@@ -567,9 +567,9 @@ exports[`never mutates input: basicNumberedList 1`] = `
 ]
 `;
 
-exports[`never mutates input: customBlockType 1`] = `<View />`;
+exports[`never mutates input > customBlockType 1`] = `<View />`;
 
-exports[`never mutates input: customListItemType 1`] = `
+exports[`never mutates input > customListItemType 1`] = `
 <View
   style={
     [
@@ -722,7 +722,7 @@ exports[`never mutates input: customListItemType 1`] = `
 </View>
 `;
 
-exports[`never mutates input: customMarks 1`] = `
+exports[`never mutates input > customMarks 1`] = `
 <View
   style={
     {
@@ -738,7 +738,7 @@ exports[`never mutates input: customMarks 1`] = `
 </View>
 `;
 
-exports[`never mutates input: deepWeirdLists 1`] = `
+exports[`never mutates input > deepWeirdLists 1`] = `
 [
   <View
     style={
@@ -1506,9 +1506,9 @@ exports[`never mutates input: deepWeirdLists 1`] = `
 ]
 `;
 
-exports[`never mutates input: emptyArray 1`] = `null`;
+exports[`never mutates input > emptyArray 1`] = `null`;
 
-exports[`never mutates input: emptyBlock 1`] = `
+exports[`never mutates input > emptyBlock 1`] = `
 <View
   style={
     {
@@ -1522,7 +1522,7 @@ exports[`never mutates input: emptyBlock 1`] = `
 </View>
 `;
 
-exports[`never mutates input: hardBreaks 1`] = `
+exports[`never mutates input > hardBreaks 1`] = `
 <View
   style={
     {
@@ -1552,7 +1552,7 @@ exports[`never mutates input: hardBreaks 1`] = `
 </View>
 `;
 
-exports[`never mutates input: imageSupport 1`] = `
+exports[`never mutates input > imageSupport 1`] = `
 [
   <View
     style={
@@ -1571,7 +1571,7 @@ exports[`never mutates input: imageSupport 1`] = `
 ]
 `;
 
-exports[`never mutates input: imageWithHotspot 1`] = `
+exports[`never mutates input > imageWithHotspot 1`] = `
 [
   <View
     style={
@@ -1590,7 +1590,7 @@ exports[`never mutates input: imageWithHotspot 1`] = `
 ]
 `;
 
-exports[`never mutates input: inlineBlockWithText 1`] = `
+exports[`never mutates input > inlineBlockWithText 1`] = `
 <View
   style={
     {
@@ -1608,7 +1608,7 @@ exports[`never mutates input: inlineBlockWithText 1`] = `
 </View>
 `;
 
-exports[`never mutates input: inlineImages 1`] = `
+exports[`never mutates input > inlineImages 1`] = `
 [
   <View
     style={
@@ -1702,7 +1702,7 @@ exports[`never mutates input: inlineImages 1`] = `
 ]
 `;
 
-exports[`never mutates input: inlineNodes 1`] = `
+exports[`never mutates input > inlineNodes 1`] = `
 [
   <View
     style={
@@ -1735,7 +1735,7 @@ exports[`never mutates input: inlineNodes 1`] = `
 ]
 `;
 
-exports[`never mutates input: keyless 1`] = `
+exports[`never mutates input > keyless 1`] = `
 [
   <View
     style={
@@ -1768,7 +1768,7 @@ exports[`never mutates input: keyless 1`] = `
 ]
 `;
 
-exports[`never mutates input: linkMarkDef 1`] = `
+exports[`never mutates input > linkMarkDef 1`] = `
 <View
   style={
     {
@@ -1795,7 +1795,7 @@ exports[`never mutates input: linkMarkDef 1`] = `
 </View>
 `;
 
-exports[`never mutates input: listIssue 1`] = `
+exports[`never mutates input > listIssue 1`] = `
 [
   <View
     style={
@@ -4275,7 +4275,7 @@ exports[`never mutates input: listIssue 1`] = `
 ]
 `;
 
-exports[`never mutates input: listWithoutLevel 1`] = `
+exports[`never mutates input > listWithoutLevel 1`] = `
 [
   <View
     style={
@@ -4754,7 +4754,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
 ]
 `;
 
-exports[`never mutates input: marksAllTheWayDown 1`] = `
+exports[`never mutates input > marksAllTheWayDown 1`] = `
 <View
   style={
     {
@@ -4770,7 +4770,7 @@ exports[`never mutates input: marksAllTheWayDown 1`] = `
 </View>
 `;
 
-exports[`never mutates input: materializedImageSupport 1`] = `
+exports[`never mutates input > materializedImageSupport 1`] = `
 [
   <View
     style={
@@ -4789,7 +4789,7 @@ exports[`never mutates input: materializedImageSupport 1`] = `
 ]
 `;
 
-exports[`never mutates input: messyLinkText 1`] = `
+exports[`never mutates input > messyLinkText 1`] = `
 <View
   style={
     {
@@ -4846,7 +4846,7 @@ exports[`never mutates input: messyLinkText 1`] = `
 </View>
 `;
 
-exports[`never mutates input: missingMarkComponent 1`] = `
+exports[`never mutates input > missingMarkComponent 1`] = `
 <View
   style={
     {
@@ -4874,7 +4874,7 @@ exports[`never mutates input: missingMarkComponent 1`] = `
 </View>
 `;
 
-exports[`never mutates input: multipleSpans 1`] = `
+exports[`never mutates input > multipleSpans 1`] = `
 <View
   style={
     {
@@ -4891,7 +4891,7 @@ exports[`never mutates input: multipleSpans 1`] = `
 </View>
 `;
 
-exports[`never mutates input: nestedLists 1`] = `
+exports[`never mutates input > nestedLists 1`] = `
 [
   <View
     style={
@@ -5335,7 +5335,7 @@ exports[`never mutates input: nestedLists 1`] = `
 ]
 `;
 
-exports[`never mutates input: overrideDefaultMarks 1`] = `
+exports[`never mutates input > overrideDefaultMarks 1`] = `
 <View
   style={
     {
@@ -5360,9 +5360,9 @@ exports[`never mutates input: overrideDefaultMarks 1`] = `
 </View>
 `;
 
-exports[`never mutates input: overrideDefaults 1`] = `<View />`;
+exports[`never mutates input > overrideDefaults 1`] = `<View />`;
 
-exports[`never mutates input: plainHeaderBlock 1`] = `
+exports[`never mutates input > plainHeaderBlock 1`] = `
 <View
   style={
     {
@@ -5383,7 +5383,7 @@ exports[`never mutates input: plainHeaderBlock 1`] = `
 </View>
 `;
 
-exports[`never mutates input: singleSpan 1`] = `
+exports[`never mutates input > singleSpan 1`] = `
 <View
   style={
     {
@@ -5399,7 +5399,7 @@ exports[`never mutates input: singleSpan 1`] = `
 </View>
 `;
 
-exports[`never mutates input: styledListItems 1`] = `
+exports[`never mutates input > styledListItems 1`] = `
 [
   <View
     style={

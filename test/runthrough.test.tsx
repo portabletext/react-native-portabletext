@@ -1,4 +1,5 @@
 import React from 'react'
+import {test, expect} from 'vitest'
 import {View, Text} from 'react-native'
 import renderer from 'react-test-renderer'
 import {PortableText, PortableTextReactComponents} from '../src'
