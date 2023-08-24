@@ -22,7 +22,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build -c ./vite.config.cjs",
+    "build": "vite build -c ./vite.config.ts",
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint .",
     "prepublishOnly": "pnpm build",
@@ -87,7 +87,7 @@
     "semantic-release": "^21.0.9",
     "typescript": "^5.1.6",
     "vite": "^4.4.9",
-    "vite-dts": "^1.0.4",
+    "vite-plugin-dts": "^3.5.2",
     "vitest": "^0.34.2",
     "vitest-react-native": "^0.1.2"
   },
