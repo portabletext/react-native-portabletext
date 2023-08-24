@@ -50,3 +50,5 @@ yarn.lock
 
 # Compiled portable text
 /dist
+
+package-lock.json
