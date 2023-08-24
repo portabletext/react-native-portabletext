@@ -5,7 +5,7 @@ import {PortableText as BasePortableText, mergeComponents} from '@portabletext/r
 import {defaultComponents} from './components/defaults'
 
 export function PortableText<B extends TypedObject = PortableTextBlock>(
-  props: Omit<PortableTextProps<B>, 'listNestingMode'>
+  props: Omit<PortableTextProps<B>, 'listNestingMode'>,
 ) {
   return (
     <BasePortableText
