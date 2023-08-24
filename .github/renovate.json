@@ -9,6 +9,14 @@
       "groupName": null,
       "groupSlug": null,
       "semanticCommitType": "fix"
+    },
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "matchPackageNames": ["react", "react-native"],
+      "rangeStrategy": "widen",
+      "groupName": null,
+      "groupSlug": null,
+      "semanticCommitType": "fix"
     }
   ]
 }
