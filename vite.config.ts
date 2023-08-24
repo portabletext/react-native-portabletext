@@ -11,7 +11,7 @@ export default defineConfig({
       fileName: (format) => `react-native-portable-text.${format}.js`,
     },
     rollupOptions: {
-      external: ['@portabletext/react', '@portabletext/types','react', 'react-native'],
+      external: ['@portabletext/react', '@portabletext/types', 'react', 'react-native'],
       output: {
         // Since we publish our ./src folder, there's no point in bloating sourcemaps with another copy of it.
         sourcemapExcludeSources: true,
