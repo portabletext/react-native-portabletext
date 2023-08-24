@@ -22,7 +22,7 @@ export const DefaultUnknownMark: PortableTextReactComponents['unknownMark'] = ({
 }) => {
   // eslint-disable-next-line no-console
   console.warn(
-    `Unknown mark type "${markType}", please specify a component for it in the \`components.marks\` prop`
+    `Unknown mark type "${markType}", please specify a component for it in the \`components.marks\` prop`,
   )
 
   return <Text>{children}</Text>
@@ -35,7 +35,7 @@ export const DefaultUnknownBlockStyle: PortableTextReactComponents['unknownBlock
   const style = value.style || 'normal'
   // eslint-disable-next-line no-console
   console.warn(
-    `Unknown block style "${style}", please specify a component for it in the \`components.block\` prop`
+    `Unknown block style "${style}", please specify a component for it in the \`components.block\` prop`,
   )
 
   return <DefaultBlock {...props} value={{...value, style: 'normal'}} />
@@ -51,7 +51,7 @@ export const DefaultUnknownList: PortableTextReactComponents['unknownList'] = ({
   console.warn(
     `Unknown list style "${
       value.listItem || 'bullet'
-    }", please specify a component for it in the \`components.list\` prop`
+    }", please specify a component for it in the \`components.list\` prop`,
   )
 
   return <View>{children}</View>
@@ -64,7 +64,7 @@ export const DefaultUnknownListItem: PortableTextReactComponents['unknownListIte
   const style = value.listItem || 'bullet'
   // eslint-disable-next-line no-console
   console.warn(
-    `Unknown list item style "${style}", please specify a component for it in the \`components.list\` prop`
+    `Unknown list item style "${style}", please specify a component for it in the \`components.list\` prop`,
   )
 
   return <DefaultListItem {...props} value={{...value, style: 'bullet'}} />
