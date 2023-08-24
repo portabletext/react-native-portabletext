@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/portabletext/react-native-portabletext/compare/v1.1.1...v1.1.2) (2023-08-24)
+
+### Bug Fixes
+
+- **deps:** mark `@portabletext/react` as external ([ba46ba2](https://github.com/portabletext/react-native-portabletext/commit/ba46ba22432aca11cfd6f07ab078d03f8273978e))
+
 ## [1.1.1](https://github.com/portabletext/react-native-portabletext/compare/v1.1.0...v1.1.1) (2023-08-24)
 
 ### Bug Fixes
