@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@portabletext/react':
-    specifier: ^3.0.7
-    version: 3.0.7(react@18.2.0)
+    specifier: ^3.0.9
+    version: 3.0.9(react@18.2.0)
   '@portabletext/types':
     specifier: ^2.0.7
     version: 2.0.7
@@ -2165,19 +2165,19 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@portabletext/react@3.0.7(react@18.2.0):
-    resolution: {integrity: sha512-Hx4rohr3rul/IQMDl07nRhdXLeey2fZPE/3Nbn0I+k8Zr5DsqKdkqMgkla3iBNS8h0a0LTSclS5GKVXoQlzrWg==}
+  /@portabletext/react@3.0.9(react@18.2.0):
+    resolution: {integrity: sha512-BAIhClkMs5IwDkCd2F7xF5/fsvFm39kpdZmGnLfCpZudb5zDY8JNa6eeyRO50rL+VwozXb8qJEBkVBTp3CGcEw==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       react: ^17 || ^18
     dependencies:
-      '@portabletext/toolkit': 2.0.8
+      '@portabletext/toolkit': 2.0.9
       '@portabletext/types': 2.0.7
       react: 18.2.0
     dev: false
 
-  /@portabletext/toolkit@2.0.8:
-    resolution: {integrity: sha512-MI3FKYZiL+/dYsClkkTDRjSvNS7K4j+U2LNZ5XIEoq67qCY0l7CYjvT0fn+lFBEUxjegtEmbxLk6T9nV/iXA+Q==}
+  /@portabletext/toolkit@2.0.9:
+    resolution: {integrity: sha512-6/P/fsCGLFhztVGJRwIMePmwGbOH1Uvoim04XPh38pcC+wWT3KJ97Hn1HPWmuxd9kGdxyySQpThfYZbSmroGpg==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dependencies:
       '@portabletext/types': 2.0.7
