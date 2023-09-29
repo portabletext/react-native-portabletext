@@ -56,19 +56,12 @@
       "lib/**/"
     ]
   },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "extends": "@sanity/semantic-release-preset"
-  },
   "dependencies": {
     "@portabletext/react": "^3.0.7",
     "@portabletext/types": "^2.0.6"
   },
   "devDependencies": {
     "@react-native/polyfills": "^2.0.0",
-    "@sanity/semantic-release-preset": "^4.1.4",
     "@types/react": "^18.2.23",
     "@types/react-native": "^0.72.3",
     "@types/react-test-renderer": "^18.0.3",
@@ -84,7 +77,6 @@
     "react": "^18.2.0",
     "react-native": "^0.72.5",
     "react-test-renderer": "^18.2.0",
-    "semantic-release": "^21.1.1",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",
     "vite-plugin-dts": "^3.6.0",
@@ -97,7 +89,6 @@
   },
   "packageManager": "pnpm@8.8.0",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
