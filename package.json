@@ -73,7 +73,7 @@
     "eslint-config-sanity": "^6.0.0",
     "eslint-plugin-react": "^7.33.2",
     "prettier": "^3.0.3",
-    "prettier-plugin-packagejson": "^2.4.5",
+    "prettier-plugin-packagejson": "^2.4.6",
     "react": "^18.2.0",
     "react-native": "^0.72.5",
     "react-test-renderer": "^18.2.0",
