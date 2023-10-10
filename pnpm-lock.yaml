@@ -71,10 +71,10 @@ devDependencies:
     specifier: ^3.6.0
     version: 3.6.0(typescript@5.2.2)(vite@4.4.11)
   vitest:
-    specifier: ^0.34.6
+    specifier: 0.34.6
     version: 0.34.6
   vitest-react-native:
-    specifier: ^0.1.2
+    specifier: 0.1.2
     version: 0.1.2(react-native@0.72.5)(react@18.2.0)(vite@4.4.11)
 
 packages:
