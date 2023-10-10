@@ -78,7 +78,7 @@
     "react-native": "^0.72.5",
     "react-test-renderer": "^18.2.0",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9",
+    "vite": "^4.4.11",
     "vite-plugin-dts": "^3.6.0",
     "vitest": "^0.34.6",
     "vitest-react-native": "^0.1.2"
