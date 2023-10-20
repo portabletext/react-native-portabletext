@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^2.0.0
     version: 2.0.0
   '@types/react':
-    specifier: ^18.2.27
-    version: 18.2.27
+    specifier: ^18.2.31
+    version: 18.2.31
   '@types/react-native':
     specifier: ^0.72.3
     version: 0.72.3(react-native@0.72.5)
@@ -2577,7 +2577,7 @@ packages:
     resolution: {integrity: sha512-9+g+DBJIY3bG7+ZlYzKPr9kxTQxUuZQgLWZhYK4RlIcrsm3qaJhL2PU2e/K4CjnzznWCo2Islgec94x2z1pG4Q==}
     dependencies:
       '@react-native/virtualized-lists': 0.72.8(react-native@0.72.5)
-      '@types/react': 18.2.27
+      '@types/react': 18.2.31
     transitivePeerDependencies:
       - react-native
     dev: true
@@ -2585,11 +2585,11 @@ packages:
   /@types/react-test-renderer@18.0.3:
     resolution: {integrity: sha512-4wcNLnY6nIT+L6g94CpzL4CXX2P18JvKPU9CDlaHr3DnbP3GiaQLhDotJqjWlVqOcE4UhLRjp0MtxqwuNKONnA==}
     dependencies:
-      '@types/react': 18.2.27
+      '@types/react': 18.2.31
     dev: true
 
-  /@types/react@18.2.27:
-    resolution: {integrity: sha512-Wfv7B7FZiR2r3MIqbAlXoY1+tXm4bOqfz4oRr+nyXdBqapDBZ0l/IGcSlAfvxIHEEJjkPU0MYAc/BlFPOcrgLw==}
+  /@types/react@18.2.31:
+    resolution: {integrity: sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==}
     dependencies:
       '@types/prop-types': 15.7.8
       '@types/scheduler': 0.16.4
