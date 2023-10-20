@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^0.72.3
     version: 0.72.3(react-native@0.72.5)
   '@types/react-test-renderer':
-    specifier: ^18.0.3
-    version: 18.0.3
+    specifier: ^18.0.5
+    version: 18.0.5
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.7.5
     version: 6.7.5(@typescript-eslint/parser@6.7.5)(eslint@8.51.0)(typescript@5.2.2)
@@ -2582,8 +2582,8 @@ packages:
       - react-native
     dev: true
 
-  /@types/react-test-renderer@18.0.3:
-    resolution: {integrity: sha512-4wcNLnY6nIT+L6g94CpzL4CXX2P18JvKPU9CDlaHr3DnbP3GiaQLhDotJqjWlVqOcE4UhLRjp0MtxqwuNKONnA==}
+  /@types/react-test-renderer@18.0.5:
+    resolution: {integrity: sha512-PsnmF4Hpi61PTRX+dTxkjgDdtZ09kFFgPXczoF+yBfOVxn7xBLPvKP1BUrSasYHmerj33rhoJuvpIMsJuyRqHw==}
     dependencies:
       '@types/react': 18.2.31
     dev: true
