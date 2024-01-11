@@ -28,3 +28,19 @@ test('never mutates input', () => {
     expect(originalInput).toMatchObject(passedInput)
   }
 })
+
+test('with theme', () => {
+  for (const [key, fixture] of Object.entries(fixtures)) {
+    if (key === 'default') {
+      continue
+    }
+
+    const tree = renderer
+      .create(
+        <PortableText value={fixture.input} theme={{fontColor: 'white', fontFamily: 'Arial'}} />,
+      )
+      .toJSON()
+
+    expect(tree).toMatchSnapshot(key)
+  }
+})

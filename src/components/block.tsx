@@ -3,7 +3,7 @@ import {View, Text} from 'react-native'
 import type {PortableTextComponent} from '@portabletext/react'
 import type {PortableTextBlock, PortableTextBlockStyle} from '@portabletext/types'
 
-import {blockStyles, textStyles} from './styles'
+import {PortableTextTheme, blockStyles, getTextStylesWithTheme, textStyles} from './styles'
 
 type BlockStyleName = keyof typeof blockStyles
 
@@ -18,6 +18,24 @@ export const DefaultBlock: PortableTextComponent<PortableTextBlock> = ({children
   )
 }
 
+export const getDefaultBlockWithTheme = (
+  theme: PortableTextTheme,
+): PortableTextComponent<PortableTextBlock> => {
+  const textStylesWithTheme = getTextStylesWithTheme(theme)
+
+  const DefaultBlockWithTheme: PortableTextComponent<PortableTextBlock> = ({children, value}) => {
+    const style = (value.style || 'normal') as BlockStyleName
+
+    return (
+      <View style={blockStyles[style]}>
+        <Text style={textStylesWithTheme[style]}>{children}</Text>
+      </View>
+    )
+  }
+
+  return DefaultBlockWithTheme
+}
+
 export const defaultBlockStyles: Record<
   PortableTextBlockStyle,
   PortableTextComponent<PortableTextBlock> | undefined
@@ -30,4 +48,20 @@ export const defaultBlockStyles: Record<
   h4: DefaultBlock,
   h5: DefaultBlock,
   h6: DefaultBlock,
+}
+
+export const getDefaultBlockStylesWithTheme = (
+  theme: PortableTextTheme,
+): Record<PortableTextBlockStyle, PortableTextComponent<PortableTextBlock> | undefined> => {
+  const defaultBlockWithTheme = getDefaultBlockWithTheme(theme)
+  return {
+    normal: defaultBlockWithTheme,
+    blockquote: defaultBlockWithTheme,
+    h1: defaultBlockWithTheme,
+    h2: defaultBlockWithTheme,
+    h3: defaultBlockWithTheme,
+    h4: defaultBlockWithTheme,
+    h5: defaultBlockWithTheme,
+    h6: defaultBlockWithTheme,
+  }
 }

@@ -18,6 +18,7 @@
   "type": "module",
   "main": "./dist/react-native-portable-text.es.js",
   "module": "./dist/react-native-portable-text.es.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
