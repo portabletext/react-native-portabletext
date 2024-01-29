@@ -2,7 +2,7 @@ import React from 'react'
 import {Text} from 'react-native'
 import type {PortableTextReactComponents} from '@portabletext/react'
 
-import {defaultMarks} from './marks'
+import {defaultMarks, getDefaultMarksWithTheme} from './marks'
 import {defaultBlockStyles, getDefaultBlockStylesWithTheme} from './block'
 import {DefaultList, defaultListItems, getDefaultListItemsWithTheme} from './list'
 import {
@@ -12,7 +12,7 @@ import {
   DefaultUnknownListItem,
   DefaultUnknownBlockStyle,
 } from './unknown'
-import {PortableTextTheme} from './styles'
+import {PortableTextFontTheme} from './styles'
 
 export const DefaultHardBreak = () => <Text>{'\n'}</Text>
 
@@ -33,13 +33,13 @@ export const defaultComponents: PortableTextReactComponents = {
 }
 
 export const getDefaultComponentsWithTheme = (
-  theme: PortableTextTheme,
+  theme: PortableTextFontTheme,
 ): PortableTextReactComponents => {
   return {
     types: {},
 
     block: getDefaultBlockStylesWithTheme(theme),
-    marks: defaultMarks,
+    marks: getDefaultMarksWithTheme(theme),
     list: DefaultList,
     listItem: getDefaultListItemsWithTheme(theme),
     hardBreak: DefaultHardBreak,

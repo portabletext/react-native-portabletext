@@ -3,7 +3,7 @@ import {View, Text} from 'react-native'
 import type {PortableTextComponent} from '@portabletext/react'
 import type {PortableTextBlock, PortableTextBlockStyle} from '@portabletext/types'
 
-import {PortableTextTheme, blockStyles, getTextStylesWithTheme, textStyles} from './styles'
+import {PortableTextFontTheme, blockStyles, getTextStylesWithTheme, textStyles} from './styles'
 
 type BlockStyleName = keyof typeof blockStyles
 
@@ -19,7 +19,7 @@ export const DefaultBlock: PortableTextComponent<PortableTextBlock> = ({children
 }
 
 export const getDefaultBlockWithTheme = (
-  theme: PortableTextTheme,
+  theme: PortableTextFontTheme,
 ): PortableTextComponent<PortableTextBlock> => {
   const textStylesWithTheme = getTextStylesWithTheme(theme)
 
@@ -51,7 +51,7 @@ export const defaultBlockStyles: Record<
 }
 
 export const getDefaultBlockStylesWithTheme = (
-  theme: PortableTextTheme,
+  theme: PortableTextFontTheme,
 ): Record<PortableTextBlockStyle, PortableTextComponent<PortableTextBlock> | undefined> => {
   const defaultBlockWithTheme = getDefaultBlockWithTheme(theme)
   return {

@@ -3,7 +3,7 @@ import {View, Text} from 'react-native'
 import type {PortableTextListComponent, PortableTextListItemComponent} from '@portabletext/react'
 import type {PortableTextListItemType} from '@portabletext/types'
 
-import {PortableTextTheme, getListStylesWithTheme, listStyles} from './styles'
+import {PortableTextFontTheme, getListStylesWithTheme, listStyles} from './styles'
 
 export const DefaultList: PortableTextListComponent = ({value, children}) => {
   const base = value.level > 1 ? listStyles.listDeep : listStyles.list
@@ -30,7 +30,7 @@ export const defaultListItems: Record<
 }
 
 export const getDefaultListItemsWithTheme = (
-  theme: PortableTextTheme,
+  theme: PortableTextFontTheme,
 ): Record<PortableTextListItemType, PortableTextListItemComponent | undefined> => {
   const listStylesWithTheme = getListStylesWithTheme(theme)
 

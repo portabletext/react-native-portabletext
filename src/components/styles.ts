@@ -1,6 +1,24 @@
-import {StyleSheet} from 'react-native'
+import {StyleSheet, TextStyle} from 'react-native'
 
-export type PortableTextTheme = {fontColor: string; fontFamily: string}
+type LinkTheme = Record<'link', {color: string}>
+
+type StrongTheme = Record<'strong', {fontWeight: TextStyle['fontWeight']; fontFamily: string}>
+
+type CodeTheme = Record<'code', {backgroundColor: string; color: string}>
+
+export type PortableTextFontTheme = Record<
+  keyof typeof blockStyles | 'bulletListIcon' | 'listItem',
+  {
+    fontWeight?: TextStyle['fontWeight']
+    fontSize?: number
+    color?: string
+    fontFamily?: string
+    lineHeight?: number
+  }
+> &
+  LinkTheme &
+  StrongTheme &
+  CodeTheme
 
 export const blockStyles = StyleSheet.create({
   normal: {marginBottom: 16},
@@ -47,7 +65,7 @@ export const listStyles = StyleSheet.create({
   },
 })
 
-export const getListStylesWithTheme = (theme: PortableTextTheme): typeof listStyles =>
+export const getListStylesWithTheme = (theme: PortableTextFontTheme) =>
   StyleSheet.create({
     list: {
       marginVertical: 16,
@@ -61,16 +79,21 @@ export const getListStylesWithTheme = (theme: PortableTextTheme): typeof listSty
       flex: 1,
       flexWrap: 'wrap',
       flexDirection: 'row',
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
+      fontSize: theme.listItem.fontSize,
+      fontWeight: theme.listItem.fontWeight,
+      color: theme.listItem.color,
+      fontFamily: theme.listItem.fontFamily,
+      lineHeight: theme.listItem.lineHeight,
     },
 
     bulletListIcon: {
       marginLeft: 10,
       marginRight: 10,
-      fontWeight: 'bold',
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
+      fontSize: theme.bulletListIcon.fontSize,
+      fontWeight: theme.bulletListIcon.fontWeight,
+      color: theme.bulletListIcon.color,
+      fontFamily: theme.bulletListIcon.fontFamily,
+      lineHeight: theme.bulletListIcon.lineHeight,
     },
 
     listItemWrapper: {
@@ -114,59 +137,9 @@ export const textStyles = StyleSheet.create({
   blockquote: {},
 })
 
-export const getTextStylesWithTheme = (theme: PortableTextTheme): typeof textStyles =>
-  StyleSheet.create({
-    h1: {
-      fontWeight: 'bold',
-      fontSize: 32,
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-
-    h2: {
-      fontWeight: 'bold',
-      fontSize: 24,
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-
-    h3: {
-      fontWeight: 'bold',
-      fontSize: 18,
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-
-    h4: {
-      fontWeight: 'bold',
-      fontSize: 16,
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-
-    h5: {
-      fontWeight: 'bold',
-      fontSize: 14,
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-
-    h6: {
-      fontWeight: 'bold',
-      fontSize: 10,
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-
-    normal: {
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-    blockquote: {
-      color: theme.fontColor,
-      fontFamily: theme.fontFamily,
-    },
-  })
+export const getTextStylesWithTheme = (theme: PortableTextFontTheme) => {
+  return StyleSheet.create(theme)
+}
 
 export const markStyles = StyleSheet.create({
   strong: {
@@ -196,6 +169,39 @@ export const markStyles = StyleSheet.create({
     color: '#24292e',
   },
 })
+
+export const getMarkStylesWithTheme = (theme: PortableTextFontTheme) => {
+  return StyleSheet.create({
+    strong: {
+      fontWeight: theme.strong.fontWeight,
+      fontFamily: theme.strong.fontFamily,
+    },
+
+    em: {
+      fontStyle: 'italic',
+    },
+
+    link: {
+      textDecorationLine: 'underline',
+      color: theme.link.color,
+    },
+
+    underline: {
+      textDecorationLine: 'underline',
+    },
+
+    strikeThrough: {
+      textDecorationLine: 'line-through',
+    },
+
+    code: {
+      paddingVertical: 3,
+      paddingHorizontal: 5,
+      backgroundColor: theme.code.backgroundColor,
+      color: theme.code.color,
+    },
+  })
+}
 
 export const utilityStyles = StyleSheet.create({
   hidden: {

@@ -5553,6 +5553,9 @@ exports[`with theme > allBasicMarks 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -5571,7 +5574,8 @@ exports[`with theme > allBasicMarks 1`] = `
     <Text
       style={
         {
-          "fontWeight": "bold",
+          "fontFamily": "Arial",
+          "fontWeight": "700",
         }
       }
     >
@@ -5633,7 +5637,8 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
           "color": "white",
           "fontFamily": "Arial",
           "fontSize": 32,
-          "fontWeight": "bold",
+          "fontWeight": "900",
+          "lineHeight": 40,
         }
       }
     >
@@ -5652,8 +5657,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -5672,8 +5678,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -5692,8 +5699,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 16,
-          "fontWeight": "bold",
+          "fontSize": 18,
+          "fontWeight": "700",
+          "lineHeight": 24,
         }
       }
     >
@@ -5712,8 +5720,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 14,
-          "fontWeight": "bold",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "lineHeight": 20,
         }
       }
     >
@@ -5732,8 +5741,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 10,
-          "fontWeight": "bold",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "lineHeight": 18,
         }
       }
     >
@@ -5755,6 +5765,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -5773,6 +5786,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -5791,6 +5807,9 @@ exports[`with theme > allDefaultBlockStyles 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -5814,6 +5833,9 @@ exports[`with theme > basicBulletList 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -5845,7 +5867,9 @@ exports[`with theme > basicBulletList 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -5861,6 +5885,9 @@ exports[`with theme > basicBulletList 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -5880,7 +5907,9 @@ exports[`with theme > basicBulletList 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -5896,6 +5925,9 @@ exports[`with theme > basicBulletList 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -5915,7 +5947,9 @@ exports[`with theme > basicBulletList 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -5931,6 +5965,9 @@ exports[`with theme > basicBulletList 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -5954,13 +5991,17 @@ exports[`with theme > basicMarkMultipleAdjacentSpans 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
     <Text
       style={
         {
-          "fontWeight": "bold",
+          "fontFamily": "Arial",
+          "fontWeight": "700",
         }
       }
     >
@@ -5985,13 +6026,17 @@ exports[`with theme > basicMarkNestedMarks 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
     <Text
       style={
         {
-          "fontWeight": "bold",
+          "fontFamily": "Arial",
+          "fontWeight": "700",
         }
       }
     >
@@ -6024,6 +6069,9 @@ exports[`with theme > basicMarkSingleSpan 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -6058,6 +6106,9 @@ exports[`with theme > basicNumberedList 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -6089,7 +6140,9 @@ exports[`with theme > basicNumberedList 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6106,6 +6159,9 @@ exports[`with theme > basicNumberedList 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6125,7 +6181,9 @@ exports[`with theme > basicNumberedList 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6142,6 +6200,9 @@ exports[`with theme > basicNumberedList 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6161,7 +6222,9 @@ exports[`with theme > basicNumberedList 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6178,6 +6241,9 @@ exports[`with theme > basicNumberedList 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6366,6 +6432,9 @@ exports[`with theme > customMarks 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -6403,7 +6472,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6419,6 +6490,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6438,7 +6512,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6454,6 +6530,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6486,7 +6565,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6503,6 +6584,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6522,7 +6606,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6539,6 +6625,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6568,7 +6657,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -6585,6 +6676,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -6604,7 +6698,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -6621,6 +6717,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -6643,7 +6742,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6660,6 +6761,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6679,6 +6783,9 @@ exports[`with theme > deepWeirdLists 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     />
@@ -6708,7 +6815,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6724,6 +6833,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6753,7 +6865,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -6769,6 +6883,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -6791,7 +6908,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -6807,6 +6926,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -6836,7 +6958,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -6852,6 +6976,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -6881,7 +7008,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                       {
                         "color": "white",
                         "fontFamily": "Arial",
-                        "fontWeight": "bold",
+                        "fontSize": 16,
+                        "fontWeight": "700",
+                        "lineHeight": 24,
                         "marginLeft": 10,
                         "marginRight": 10,
                       }
@@ -6897,6 +7026,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                         "flexDirection": "row",
                         "flexWrap": "wrap",
                         "fontFamily": "Arial",
+                        "fontSize": 16,
+                        "fontWeight": "500",
+                        "lineHeight": 24,
                       }
                     }
                   >
@@ -6926,7 +7058,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                             {
                               "color": "white",
                               "fontFamily": "Arial",
-                              "fontWeight": "bold",
+                              "fontSize": 16,
+                              "fontWeight": "700",
+                              "lineHeight": 24,
                               "marginLeft": 10,
                               "marginRight": 10,
                             }
@@ -6942,6 +7076,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                               "flexDirection": "row",
                               "flexWrap": "wrap",
                               "fontFamily": "Arial",
+                              "fontSize": 16,
+                              "fontWeight": "500",
+                              "lineHeight": 24,
                             }
                           }
                         >
@@ -6967,7 +7104,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -6983,6 +7122,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -7005,7 +7147,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7021,6 +7165,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7050,7 +7197,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -7066,6 +7215,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -7101,7 +7253,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7118,6 +7272,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7147,7 +7304,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -7164,6 +7323,9 @@ exports[`with theme > deepWeirdLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -7199,7 +7361,9 @@ exports[`with theme > deepWeirdLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7215,6 +7379,9 @@ exports[`with theme > deepWeirdLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7240,6 +7407,9 @@ exports[`with theme > emptyBlock 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   />
@@ -7259,6 +7429,9 @@ exports[`with theme > hardBreaks 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -7295,6 +7468,9 @@ exports[`with theme > imageSupport 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7327,6 +7503,9 @@ exports[`with theme > imageWithHotspot 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7358,6 +7537,9 @@ exports[`with theme > inlineBlockWithText 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -7390,6 +7572,9 @@ exports[`with theme > inlineImages 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7429,6 +7614,9 @@ exports[`with theme > inlineImages 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7479,6 +7667,9 @@ exports[`with theme > inlineImages 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7523,6 +7714,9 @@ exports[`with theme > inlineNodes 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7551,6 +7745,9 @@ exports[`with theme > inlineNodes 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7574,6 +7771,9 @@ exports[`with theme > keyless 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7593,6 +7793,9 @@ exports[`with theme > keyless 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7616,6 +7819,9 @@ exports[`with theme > linkMarkDef 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -7649,8 +7855,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -7669,6 +7876,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -7700,7 +7910,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7717,6 +7929,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7736,7 +7951,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7753,6 +7970,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7772,7 +7992,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7789,6 +8011,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7808,7 +8033,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7825,6 +8052,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7844,7 +8074,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7861,6 +8093,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7880,7 +8115,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7897,6 +8134,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7916,7 +8156,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7933,6 +8175,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7952,7 +8197,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -7969,6 +8216,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -7988,7 +8238,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8005,6 +8257,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8024,7 +8279,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8041,6 +8298,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8060,8 +8320,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -8080,6 +8341,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -8098,6 +8362,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -8116,6 +8383,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -8134,8 +8404,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -8154,6 +8425,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -8205,8 +8479,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -8238,7 +8513,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8254,6 +8531,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8273,7 +8553,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8289,6 +8571,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8308,7 +8593,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8324,6 +8611,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8343,8 +8633,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -8376,7 +8667,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8392,6 +8685,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8411,7 +8707,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8427,6 +8725,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8446,7 +8747,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8462,6 +8765,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8481,7 +8787,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8497,6 +8805,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8516,7 +8827,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8532,6 +8845,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8551,7 +8867,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8567,6 +8885,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8586,8 +8907,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -8619,7 +8941,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8635,6 +8959,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8654,7 +8981,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8670,6 +8999,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8689,7 +9021,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8705,6 +9039,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8734,8 +9071,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -8767,7 +9105,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8783,6 +9123,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8802,7 +9145,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8818,6 +9163,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8837,7 +9185,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8853,6 +9203,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8872,7 +9225,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8888,6 +9243,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8907,8 +9265,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -8940,7 +9299,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8956,6 +9317,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -8975,7 +9339,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -8991,6 +9357,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9010,8 +9379,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -9043,7 +9413,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9059,6 +9431,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9078,7 +9453,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9094,6 +9471,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9113,8 +9493,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 18,
-          "fontWeight": "bold",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "lineHeight": 32,
         }
       }
     >
@@ -9146,7 +9527,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9162,6 +9545,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9181,7 +9567,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9197,6 +9585,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9226,7 +9617,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9242,6 +9635,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9261,7 +9657,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9277,6 +9675,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9296,7 +9697,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9312,6 +9715,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9331,7 +9737,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9347,6 +9755,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9369,7 +9780,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9385,6 +9798,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9414,7 +9830,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9430,6 +9848,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9449,7 +9870,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9465,6 +9888,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9484,7 +9910,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9500,6 +9928,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9519,7 +9950,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9535,6 +9968,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9554,7 +9990,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9570,6 +10008,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9589,7 +10030,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9605,6 +10048,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9624,7 +10070,9 @@ exports[`with theme > listIssue 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -9640,6 +10088,9 @@ exports[`with theme > listIssue 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -9662,8 +10113,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -9682,6 +10134,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -9700,6 +10155,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -9727,8 +10185,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -9747,6 +10206,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -9765,6 +10227,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -9783,8 +10248,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -9803,6 +10269,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -9834,7 +10303,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9851,6 +10322,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9870,7 +10344,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9887,6 +10363,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9906,7 +10385,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9923,6 +10404,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9942,7 +10426,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9959,6 +10445,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -9978,7 +10467,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -9995,6 +10486,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10014,6 +10508,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10032,8 +10529,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -10052,6 +10550,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10083,7 +10584,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10099,6 +10602,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10129,7 +10635,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10145,6 +10653,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10175,7 +10686,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10191,6 +10704,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10221,7 +10737,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10237,6 +10755,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10267,7 +10788,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10283,6 +10806,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10313,7 +10839,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10329,6 +10857,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10359,7 +10890,9 @@ exports[`with theme > listIssue 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10375,6 +10908,9 @@ exports[`with theme > listIssue 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10405,8 +10941,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -10425,6 +10962,9 @@ exports[`with theme > listIssue 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10448,8 +10988,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -10468,6 +11009,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10475,7 +11019,8 @@ exports[`with theme > listWithoutLevel 1`] = `
       <Text
         style={
           {
-            "fontWeight": "bold",
+            "fontFamily": "Arial",
+            "fontWeight": "700",
           }
         }
       >
@@ -10496,6 +11041,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10529,8 +11077,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -10562,7 +11111,9 @@ exports[`with theme > listWithoutLevel 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10578,6 +11129,9 @@ exports[`with theme > listWithoutLevel 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10597,7 +11151,9 @@ exports[`with theme > listWithoutLevel 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10613,6 +11169,9 @@ exports[`with theme > listWithoutLevel 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10632,7 +11191,9 @@ exports[`with theme > listWithoutLevel 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10648,6 +11209,9 @@ exports[`with theme > listWithoutLevel 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10667,7 +11231,9 @@ exports[`with theme > listWithoutLevel 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10683,6 +11249,9 @@ exports[`with theme > listWithoutLevel 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10702,7 +11271,9 @@ exports[`with theme > listWithoutLevel 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10718,6 +11289,9 @@ exports[`with theme > listWithoutLevel 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10737,7 +11311,9 @@ exports[`with theme > listWithoutLevel 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10753,6 +11329,9 @@ exports[`with theme > listWithoutLevel 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10772,7 +11351,9 @@ exports[`with theme > listWithoutLevel 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -10788,6 +11369,9 @@ exports[`with theme > listWithoutLevel 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -10807,8 +11391,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
@@ -10827,6 +11412,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10845,15 +11433,17 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
       <Text
         style={
           {
-            "fontWeight": "bold",
+            "fontFamily": "Arial",
+            "fontWeight": "700",
           }
         }
       >
@@ -10873,6 +11463,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10891,15 +11484,17 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
       <Text
         style={
           {
-            "fontWeight": "bold",
+            "fontFamily": "Arial",
+            "fontWeight": "700",
           }
         }
       >
@@ -10919,6 +11514,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10937,15 +11535,17 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
-          "fontSize": 24,
-          "fontWeight": "bold",
+          "fontSize": 28,
+          "fontWeight": "800",
+          "lineHeight": 36,
         }
       }
     >
       <Text
         style={
           {
-            "fontWeight": "bold",
+            "fontFamily": "Arial",
+            "fontWeight": "700",
           }
         }
       >
@@ -10965,6 +11565,9 @@ exports[`with theme > listWithoutLevel 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -10972,7 +11575,8 @@ exports[`with theme > listWithoutLevel 1`] = `
       <Text
         style={
           {
-            "fontWeight": "bold",
+            "fontFamily": "Arial",
+            "fontWeight": "700",
           }
         }
       >
@@ -10996,6 +11600,9 @@ exports[`with theme > marksAllTheWayDown 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -11031,6 +11638,9 @@ exports[`with theme > materializedImageSupport 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -11065,6 +11675,9 @@ exports[`with theme > messyLinkText 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -11097,7 +11710,8 @@ exports[`with theme > messyLinkText 1`] = `
         <Text
           style={
             {
-              "fontWeight": "bold",
+              "fontFamily": "Arial",
+              "fontWeight": "700",
             }
           }
         >
@@ -11124,6 +11738,9 @@ exports[`with theme > missingMarkComponent 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -11157,6 +11774,9 @@ exports[`with theme > multipleSpans 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -11180,6 +11800,9 @@ exports[`with theme > nestedLists 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -11211,7 +11834,9 @@ exports[`with theme > nestedLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11227,6 +11852,9 @@ exports[`with theme > nestedLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11246,7 +11874,9 @@ exports[`with theme > nestedLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11262,6 +11892,9 @@ exports[`with theme > nestedLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11291,7 +11924,9 @@ exports[`with theme > nestedLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -11308,6 +11943,9 @@ exports[`with theme > nestedLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -11337,7 +11975,9 @@ exports[`with theme > nestedLists 1`] = `
                       {
                         "color": "white",
                         "fontFamily": "Arial",
-                        "fontWeight": "bold",
+                        "fontSize": 16,
+                        "fontWeight": "700",
+                        "lineHeight": 24,
                         "marginLeft": 10,
                         "marginRight": 10,
                       }
@@ -11354,6 +11994,9 @@ exports[`with theme > nestedLists 1`] = `
                         "flexDirection": "row",
                         "flexWrap": "wrap",
                         "fontFamily": "Arial",
+                        "fontSize": 16,
+                        "fontWeight": "500",
+                        "lineHeight": 24,
                       }
                     }
                   >
@@ -11376,7 +12019,9 @@ exports[`with theme > nestedLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -11393,6 +12038,9 @@ exports[`with theme > nestedLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -11412,7 +12060,9 @@ exports[`with theme > nestedLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -11429,6 +12079,9 @@ exports[`with theme > nestedLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -11451,7 +12104,9 @@ exports[`with theme > nestedLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11467,6 +12122,9 @@ exports[`with theme > nestedLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11486,7 +12144,9 @@ exports[`with theme > nestedLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11502,6 +12162,9 @@ exports[`with theme > nestedLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11534,7 +12197,9 @@ exports[`with theme > nestedLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11551,6 +12216,9 @@ exports[`with theme > nestedLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11570,7 +12238,9 @@ exports[`with theme > nestedLists 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11587,6 +12257,9 @@ exports[`with theme > nestedLists 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11616,7 +12289,9 @@ exports[`with theme > nestedLists 1`] = `
                 {
                   "color": "white",
                   "fontFamily": "Arial",
-                  "fontWeight": "bold",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "lineHeight": 24,
                   "marginLeft": 10,
                   "marginRight": 10,
                 }
@@ -11633,6 +12308,9 @@ exports[`with theme > nestedLists 1`] = `
                   "flexDirection": "row",
                   "flexWrap": "wrap",
                   "fontFamily": "Arial",
+                  "fontSize": 16,
+                  "fontWeight": "500",
+                  "lineHeight": 24,
                 }
               }
             >
@@ -11655,6 +12333,9 @@ exports[`with theme > nestedLists 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -11677,6 +12358,9 @@ exports[`with theme > overrideDefaultMarks 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -11719,8 +12403,9 @@ exports[`with theme > plainHeaderBlock 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
-        "fontSize": 24,
-        "fontWeight": "bold",
+        "fontSize": 28,
+        "fontWeight": "800",
+        "lineHeight": 36,
       }
     }
   >
@@ -11742,6 +12427,9 @@ exports[`with theme > singleSpan 1`] = `
       {
         "color": "white",
         "fontFamily": "Arial",
+        "fontSize": 16,
+        "fontWeight": "500",
+        "lineHeight": 24,
       }
     }
   >
@@ -11764,6 +12452,9 @@ exports[`with theme > styledListItems 1`] = `
         {
           "color": "white",
           "fontFamily": "Arial",
+          "fontSize": 16,
+          "fontWeight": "500",
+          "lineHeight": 24,
         }
       }
     >
@@ -11795,7 +12486,9 @@ exports[`with theme > styledListItems 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11811,6 +12504,9 @@ exports[`with theme > styledListItems 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11830,7 +12526,9 @@ exports[`with theme > styledListItems 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11846,6 +12544,9 @@ exports[`with theme > styledListItems 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
@@ -11862,7 +12563,8 @@ exports[`with theme > styledListItems 1`] = `
                 "color": "white",
                 "fontFamily": "Arial",
                 "fontSize": 32,
-                "fontWeight": "bold",
+                "fontWeight": "900",
+                "lineHeight": 40,
               }
             }
           >
@@ -11884,7 +12586,9 @@ exports[`with theme > styledListItems 1`] = `
           {
             "color": "white",
             "fontFamily": "Arial",
-            "fontWeight": "bold",
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": 24,
             "marginLeft": 10,
             "marginRight": 10,
           }
@@ -11900,6 +12604,9 @@ exports[`with theme > styledListItems 1`] = `
             "flexDirection": "row",
             "flexWrap": "wrap",
             "fontFamily": "Arial",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "lineHeight": 24,
           }
         }
       >
