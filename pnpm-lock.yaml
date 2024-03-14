@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^2.0.0
     version: 2.0.0
   '@types/react':
-    specifier: ^18.2.31
-    version: 18.2.31
+    specifier: ^18.2.66
+    version: 18.2.66
   '@types/react-native':
     specifier: ^0.72.5
     version: 0.72.5(react-native@0.72.6)
@@ -2577,7 +2577,7 @@ packages:
     resolution: {integrity: sha512-HAt+EC576kbyg3+qruzbOLgVhgDHTHJ3d3rTkWRJ0wukze+l3ldWUkh1IarERHqsUlWwmkuYu0+4TQE5y1EjwA==}
     dependencies:
       '@react-native/virtualized-lists': 0.72.8(react-native@0.72.6)
-      '@types/react': 18.2.31
+      '@types/react': 18.2.66
     transitivePeerDependencies:
       - react-native
     dev: true
@@ -2585,11 +2585,11 @@ packages:
   /@types/react-test-renderer@18.0.5:
     resolution: {integrity: sha512-PsnmF4Hpi61PTRX+dTxkjgDdtZ09kFFgPXczoF+yBfOVxn7xBLPvKP1BUrSasYHmerj33rhoJuvpIMsJuyRqHw==}
     dependencies:
-      '@types/react': 18.2.31
+      '@types/react': 18.2.66
     dev: true
 
-  /@types/react@18.2.31:
-    resolution: {integrity: sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==}
+  /@types/react@18.2.66:
+    resolution: {integrity: sha512-OYTmMI4UigXeFMF/j4uv0lBBEbongSgptPrHBxqME44h9+yNov+oL6Z3ocJKo0WyXR84sQUNeyIp9MRfckvZpg==}
     dependencies:
       '@types/prop-types': 15.7.8
       '@types/scheduler': 0.16.4
@@ -5193,6 +5193,7 @@ packages:
 
   /loupe@2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
+    deprecated: Please upgrade to 2.3.7 which fixes GHSA-4q6p-r6v2-jvc5
     dependencies:
       get-func-name: 2.0.2
     dev: true
