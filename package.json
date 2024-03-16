@@ -55,7 +55,10 @@
     ],
     "ignorePatterns": [
       "lib/**/"
-    ]
+    ],
+    "rules": {
+      "react/prop-types": "off"
+    }
   },
   "dependencies": {
     "@portabletext/react": "^3.0.11",
@@ -73,6 +76,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-sanity": "^7.1.1",
     "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.2.5",
     "prettier-plugin-packagejson": "^2.4.12",
     "react": "^18.2.0",

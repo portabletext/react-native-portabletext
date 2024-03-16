@@ -1,7 +1,9 @@
-import React, {useCallback} from 'react'
-import {Text, Linking} from 'react-native'
 import type {PortableTextMarkComponent} from '@portabletext/react'
 import type {TypedObject} from '@portabletext/types'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React, {useCallback} from 'react'
+import {Linking, Text} from 'react-native'
+
 import {markStyles} from './styles'
 
 interface DefaultLink extends TypedObject {
@@ -9,7 +11,7 @@ interface DefaultLink extends TypedObject {
   href: string
 }
 
-const link: PortableTextMarkComponent<DefaultLink> = ({children, value}) => {
+const Link: PortableTextMarkComponent<DefaultLink> = ({children, value}) => {
   const href = value?.href
   const onPress = useCallback(() => (href ? Linking.openURL(href) : undefined), [href])
 
@@ -26,5 +28,5 @@ export const defaultMarks: Record<string, PortableTextMarkComponent | undefined>
   code: ({children}) => <Text style={markStyles.code}>{children}</Text>,
   underline: ({children}) => <Text style={markStyles.underline}>{children}</Text>,
   'strike-through': ({children}) => <Text style={markStyles.strikeThrough}>{children}</Text>,
-  link,
+  link: Link,
 }

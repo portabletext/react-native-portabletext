@@ -1,9 +1,11 @@
+import type {PortableTextReactComponents} from '@portabletext/react'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
 import {Text, View} from 'react-native'
-import type {PortableTextReactComponents} from '@portabletext/react'
+
 import {DefaultBlock} from './block'
-import {utilityStyles} from './styles'
 import {defaultListItems} from './list'
+import {utilityStyles} from './styles'
 
 const DefaultListItem = defaultListItems.bullet || View
 

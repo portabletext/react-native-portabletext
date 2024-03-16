@@ -1,14 +1,15 @@
-import React from 'react'
 import type {PortableTextProps} from '@portabletext/react'
-import type {TypedObject, PortableTextBlock} from '@portabletext/types'
-import {PortableText as BasePortableText, mergeComponents} from '@portabletext/react'
+import {mergeComponents,PortableText as BasePortableText} from '@portabletext/react'
+import type {PortableTextBlock,TypedObject} from '@portabletext/types'
+import React from 'react'
+
 import {defaultComponents} from './components/defaults'
 
 export * from '@portabletext/react'
 
 export function PortableText<B extends TypedObject = PortableTextBlock>(
   props: Omit<PortableTextProps<B>, 'listNestingMode'>,
-) {
+): React.JSX.Element {
   return (
     <BasePortableText
       {...props}

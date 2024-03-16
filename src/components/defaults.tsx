@@ -1,19 +1,20 @@
+import type {PortableTextReactComponents} from '@portabletext/react'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
 import {Text} from 'react-native'
-import type {PortableTextReactComponents} from '@portabletext/react'
 
-import {defaultMarks} from './marks'
 import {defaultBlockStyles} from './block'
 import {DefaultList, defaultListItems} from './list'
+import {defaultMarks} from './marks'
 import {
-  DefaultUnknownType,
-  DefaultUnknownMark,
+  DefaultUnknownBlockStyle,
   DefaultUnknownList,
   DefaultUnknownListItem,
-  DefaultUnknownBlockStyle,
+  DefaultUnknownMark,
+  DefaultUnknownType,
 } from './unknown'
 
-export const DefaultHardBreak = () => <Text>{'\n'}</Text>
+export const DefaultHardBreak = ():React.JSX.Element => <Text>{'\n'}</Text>
 
 export const defaultComponents: PortableTextReactComponents = {
   types: {},

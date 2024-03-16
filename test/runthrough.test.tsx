@@ -1,7 +1,9 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
-import {test, expect} from 'vitest'
-import {View, Text} from 'react-native'
+import {Text,View} from 'react-native'
 import renderer from 'react-test-renderer'
+import {expect,test} from 'vitest'
+
 import {PortableText, PortableTextReactComponents} from '../src'
 import * as fixtures from './fixtures'
 

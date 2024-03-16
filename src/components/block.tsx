@@ -1,7 +1,8 @@
-import React from 'react'
-import {View, Text} from 'react-native'
 import type {PortableTextComponent} from '@portabletext/react'
 import type {PortableTextBlock, PortableTextBlockStyle} from '@portabletext/types'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import React from 'react'
+import {Text,View} from 'react-native'
 
 import {blockStyles, textStyles} from './styles'
 
