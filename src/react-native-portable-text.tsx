@@ -5,7 +5,7 @@ import React from 'react'
 
 import {defaultComponents} from './components/defaults'
 
-export * from '@portabletext/react'
+export type * from '@portabletext/react'
 
 export function PortableText<B extends TypedObject = PortableTextBlock>(
   props: Omit<PortableTextProps<B>, 'listNestingMode'>,
