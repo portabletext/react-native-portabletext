@@ -2,9 +2,9 @@ import React from 'react'
 import {Text} from 'react-native'
 import type {PortableTextReactComponents} from '@portabletext/react'
 
-import {defaultMarks} from './marks'
-import {defaultBlockStyles} from './block'
-import {DefaultList, defaultListItems} from './list'
+import {defaultMarks, getDefaultMarksWithTheme} from './marks'
+import {defaultBlockStyles, getDefaultBlockStylesWithTheme} from './block'
+import {DefaultList, defaultListItems, getDefaultListItemsWithTheme} from './list'
 import {
   DefaultUnknownType,
   DefaultUnknownMark,
@@ -12,6 +12,7 @@ import {
   DefaultUnknownListItem,
   DefaultUnknownBlockStyle,
 } from './unknown'
+import {PortableTextFontTheme} from './styles'
 
 export const DefaultHardBreak = () => <Text>{'\n'}</Text>
 
@@ -29,4 +30,24 @@ export const defaultComponents: PortableTextReactComponents = {
   unknownList: DefaultUnknownList,
   unknownListItem: DefaultUnknownListItem,
   unknownBlockStyle: DefaultUnknownBlockStyle,
+}
+
+export const getDefaultComponentsWithTheme = (
+  theme: PortableTextFontTheme,
+): PortableTextReactComponents => {
+  return {
+    types: {},
+
+    block: getDefaultBlockStylesWithTheme(theme),
+    marks: getDefaultMarksWithTheme(theme),
+    list: DefaultList,
+    listItem: getDefaultListItemsWithTheme(theme),
+    hardBreak: DefaultHardBreak,
+
+    unknownType: DefaultUnknownType,
+    unknownMark: DefaultUnknownMark,
+    unknownList: DefaultUnknownList,
+    unknownListItem: DefaultUnknownListItem,
+    unknownBlockStyle: DefaultUnknownBlockStyle,
+  }
 }

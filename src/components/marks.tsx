@@ -2,7 +2,7 @@ import React, {useCallback} from 'react'
 import {Text, Linking} from 'react-native'
 import type {PortableTextMarkComponent} from '@portabletext/react'
 import type {TypedObject} from '@portabletext/types'
-import {markStyles} from './styles'
+import {PortableTextFontTheme, markStyles, getMarkStylesWithTheme} from './styles'
 
 interface DefaultLink extends TypedObject {
   _type: 'link'
@@ -27,4 +27,21 @@ export const defaultMarks: Record<string, PortableTextMarkComponent | undefined>
   underline: ({children}) => <Text style={markStyles.underline}>{children}</Text>,
   'strike-through': ({children}) => <Text style={markStyles.strikeThrough}>{children}</Text>,
   link,
+}
+
+export const getDefaultMarksWithTheme = (
+  theme: PortableTextFontTheme,
+): Record<string, PortableTextMarkComponent | undefined> => {
+  const markStylesWithTheme = getMarkStylesWithTheme(theme)
+
+  return {
+    em: ({children}) => <Text style={markStylesWithTheme.em}>{children}</Text>,
+    strong: ({children}) => <Text style={markStylesWithTheme.strong}>{children}</Text>,
+    code: ({children}) => <Text style={markStylesWithTheme.code}>{children}</Text>,
+    underline: ({children}) => <Text style={markStylesWithTheme.underline}>{children}</Text>,
+    'strike-through': ({children}) => (
+      <Text style={markStylesWithTheme.strikeThrough}>{children}</Text>
+    ),
+    link,
+  }
 }

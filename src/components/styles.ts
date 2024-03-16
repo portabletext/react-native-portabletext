@@ -1,4 +1,24 @@
-import {StyleSheet} from 'react-native'
+import {StyleSheet, TextStyle} from 'react-native'
+
+type LinkTheme = Record<'link', {color: string}>
+
+type StrongTheme = Record<'strong', {fontWeight: TextStyle['fontWeight']; fontFamily: string}>
+
+type CodeTheme = Record<'code', {backgroundColor: string; color: string}>
+
+export type PortableTextFontTheme = Record<
+  keyof typeof blockStyles | 'bulletListIcon' | 'listItem',
+  {
+    fontWeight?: TextStyle['fontWeight']
+    fontSize?: number
+    color?: string
+    fontFamily?: string
+    lineHeight?: number
+  }
+> &
+  LinkTheme &
+  StrongTheme &
+  CodeTheme
 
 export const blockStyles = StyleSheet.create({
   normal: {marginBottom: 16},
@@ -45,6 +65,43 @@ export const listStyles = StyleSheet.create({
   },
 })
 
+export const getListStylesWithTheme = (theme: PortableTextFontTheme) =>
+  StyleSheet.create({
+    list: {
+      marginVertical: 16,
+    },
+
+    listDeep: {
+      marginVertical: 0,
+    },
+
+    listItem: {
+      flex: 1,
+      flexWrap: 'wrap',
+      flexDirection: 'row',
+      fontSize: theme.listItem.fontSize,
+      fontWeight: theme.listItem.fontWeight,
+      color: theme.listItem.color,
+      fontFamily: theme.listItem.fontFamily,
+      lineHeight: theme.listItem.lineHeight,
+    },
+
+    bulletListIcon: {
+      marginLeft: 10,
+      marginRight: 10,
+      fontSize: theme.bulletListIcon.fontSize,
+      fontWeight: theme.bulletListIcon.fontWeight,
+      color: theme.bulletListIcon.color,
+      fontFamily: theme.bulletListIcon.fontFamily,
+      lineHeight: theme.bulletListIcon.lineHeight,
+    },
+
+    listItemWrapper: {
+      flexDirection: 'row',
+      justifyContent: 'flex-start',
+    },
+  })
+
 export const textStyles = StyleSheet.create({
   h1: {
     fontWeight: 'bold',
@@ -80,6 +137,10 @@ export const textStyles = StyleSheet.create({
   blockquote: {},
 })
 
+export const getTextStylesWithTheme = (theme: PortableTextFontTheme) => {
+  return StyleSheet.create(theme)
+}
+
 export const markStyles = StyleSheet.create({
   strong: {
     fontWeight: 'bold',
@@ -108,6 +169,39 @@ export const markStyles = StyleSheet.create({
     color: '#24292e',
   },
 })
+
+export const getMarkStylesWithTheme = (theme: PortableTextFontTheme) => {
+  return StyleSheet.create({
+    strong: {
+      fontWeight: theme.strong.fontWeight,
+      fontFamily: theme.strong.fontFamily,
+    },
+
+    em: {
+      fontStyle: 'italic',
+    },
+
+    link: {
+      textDecorationLine: 'underline',
+      color: theme.link.color,
+    },
+
+    underline: {
+      textDecorationLine: 'underline',
+    },
+
+    strikeThrough: {
+      textDecorationLine: 'line-through',
+    },
+
+    code: {
+      paddingVertical: 3,
+      paddingHorizontal: 5,
+      backgroundColor: theme.code.backgroundColor,
+      color: theme.code.color,
+    },
+  })
+}
 
 export const utilityStyles = StyleSheet.create({
   hidden: {
