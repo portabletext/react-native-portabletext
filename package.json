@@ -53,12 +53,12 @@
       "sanity/typescript",
       "prettier"
     ],
-    "ignorePatterns": [
-      "lib/**/"
-    ],
     "rules": {
       "react/prop-types": "off"
-    }
+    },
+    "ignorePatterns": [
+      "lib/**/"
+    ]
   },
   "dependencies": {
     "@portabletext/react": "^3.0.12",

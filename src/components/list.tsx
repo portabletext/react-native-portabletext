@@ -2,7 +2,7 @@ import type {PortableTextListComponent, PortableTextListItemComponent} from '@po
 import type {PortableTextListItemType} from '@portabletext/types'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from 'react'
-import {Text,View} from 'react-native'
+import {Text, View} from 'react-native'
 
 import {listStyles} from './styles'
 

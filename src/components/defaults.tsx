@@ -14,7 +14,7 @@ import {
   DefaultUnknownType,
 } from './unknown'
 
-export const DefaultHardBreak = ():React.JSX.Element => <Text>{'\n'}</Text>
+export const DefaultHardBreak = (): React.JSX.Element => <Text>{'\n'}</Text>
 
 export const defaultComponents: PortableTextReactComponents = {
   types: {},
