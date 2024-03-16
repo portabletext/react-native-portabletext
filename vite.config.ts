@@ -1,6 +1,7 @@
 import {resolve} from 'path'
 import {defineConfig} from 'vite'
 import dts from 'vite-plugin-dts'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   build: {
@@ -8,7 +9,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.ts'),
       formats: ['es'],
       name: 'react-native-portable-text',
-      fileName: (format) => `react-native-portable-text.${format}.js`,
+      fileName: (format) => `react-native-portable-text.${format === 'es' ? 'mjs' : 'js'}`,
     },
     rollupOptions: {
       external: ['@portabletext/react', '@portabletext/types', 'react', 'react-native'],
@@ -19,5 +20,8 @@ export default defineConfig({
     },
     sourcemap: true,
   },
-  plugins: [dts()],
+  resolve: {
+    conditions: ['react-native'],
+  },
+  plugins: [react(), dts()],
 })

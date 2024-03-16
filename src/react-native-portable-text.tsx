@@ -1,4 +1,3 @@
-import React from 'react'
 import type {PortableTextProps} from '@portabletext/react'
 import type {TypedObject, PortableTextBlock} from '@portabletext/types'
 import {PortableText as BasePortableText, mergeComponents} from '@portabletext/react'

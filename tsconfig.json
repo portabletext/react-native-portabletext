@@ -1,13 +1,7 @@
 {
+  "extends": "@react-native/typescript-config",
   "include": ["src/**/*"],
   "compilerOptions": {
-    "strict": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "lib": ["ES2017"],
-    "target": "esnext",
-    "moduleResolution": "node",
-    "jsx": "react-native"
+    "types": ["react-native"],
   }
 }

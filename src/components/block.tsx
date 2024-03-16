@@ -1,4 +1,3 @@
-import React from 'react'
 import {View, Text} from 'react-native'
 import type {PortableTextComponent} from '@portabletext/react'
 import type {PortableTextBlock, PortableTextBlockStyle} from '@portabletext/types'
