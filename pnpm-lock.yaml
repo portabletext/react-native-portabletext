@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@portabletext/react':
-    specifier: ^3.0.11
-    version: 3.0.11(react@18.2.0)
+    specifier: ^3.0.12
+    version: 3.0.12(react@18.2.0)
   '@portabletext/types':
     specifier: ^2.0.9
     version: 2.0.9
@@ -2406,19 +2406,19 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@portabletext/react@3.0.11(react@18.2.0):
-    resolution: {integrity: sha512-LATQQRxvP3TlAnFayjYt7kPJcnpAtWH6XHl4RFU31pKb1G6gZlTWTB+chXXAv0uQG6Be7OEdRzCmsz9XFEVNew==}
+  /@portabletext/react@3.0.12(react@18.2.0):
+    resolution: {integrity: sha512-XyvM9rad7JK9gVt+fg4eK/5LuqmoGSkSabqlEMiuoQ1sRd7dJrNiYAegmjNFuxHIQraDlz3fCrh5FbQP1hryIQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       react: ^17 || ^18
     dependencies:
-      '@portabletext/toolkit': 2.0.10
+      '@portabletext/toolkit': 2.0.11
       '@portabletext/types': 2.0.9
       react: 18.2.0
     dev: false
 
-  /@portabletext/toolkit@2.0.10:
-    resolution: {integrity: sha512-d+F9JvpnMEx7kd6saZ9OWA4U1Iwuokh6TOht7iqkfWU+0ivh9yM4v+b0Kpu+iiPcElicoabhtXol+yTvWJ1jDw==}
+  /@portabletext/toolkit@2.0.11:
+    resolution: {integrity: sha512-4xdn1jZUZzihTvtJJbtZDsuaHNw9aaf/WZqKriP9306SlSuLFYC8Lw1MzW+Xmh3ZSurIjs+L0M+lTflB2NfYSA==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dependencies:
       '@portabletext/types': 2.0.9
