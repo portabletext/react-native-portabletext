@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@portabletext/react": "^3.0.11",
-    "@portabletext/types": "^2.0.8"
+    "@portabletext/types": "^2.0.9"
   },
   "devDependencies": {
     "@react-native/polyfills": "^2.0.0",
