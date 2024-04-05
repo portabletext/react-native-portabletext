@@ -1,6 +1,6 @@
 {
   "name": "@portabletext/react-native",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "*Experimental*: Render Portable Text with React Native",
   "keywords": [
     "portable-text"
