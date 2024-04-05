@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@portabletext/react':
-    specifier: ^3.0.15
-    version: 3.0.16(react@18.2.0)
+    specifier: ^3.0.17
+    version: 3.0.17(react@18.2.0)
   '@portabletext/types':
     specifier: ^2.0.12
     version: 2.0.12
@@ -2401,8 +2401,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@portabletext/react@3.0.16(react@18.2.0):
-    resolution: {integrity: sha512-EM0J99mi8rSqF3PNgFJNv0jZQlaI43MDzINeTqEq50oqlNPdOGa8OuUs/zMfMW0rDxE58a4rUEmRlM9nPD4JxQ==}
+  /@portabletext/react@3.0.17(react@18.2.0):
+    resolution: {integrity: sha512-a5z2CoEG6vtRNnMZ95hH1IRYMpY2Zhmeri839p0Os2CRlQX7PldL7B91NIhwuJd0D+9ESMNAMf4Or/XsVQWZew==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       react: ^17 || ^18
