@@ -25,8 +25,8 @@ importers:
         specifier: ^0.73.0
         version: 0.73.0(@babel/core@7.24.4)(@babel/preset-env@7.24.4(@babel/core@7.24.4))(react@18.2.0)
       '@types/react-test-renderer':
-        specifier: ^18.0.7
-        version: 18.0.7
+        specifier: ^18.3.0
+        version: 18.3.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.6.0
         version: 7.6.0(@typescript-eslint/parser@7.6.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
@@ -1599,8 +1599,8 @@ packages:
     resolution: {integrity: sha512-6ZRPQrYM72qYKGWidEttRe6M5DZBEV5F+MHMHqd4TTYx0tfkcdrUFGdef6CCxY0jXU7wldvd/zA/b0A/kTeJmA==}
     deprecated: This is a stub types definition. react-native provides its own type definitions, so you do not need this installed.
 
-  '@types/react-test-renderer@18.0.7':
-    resolution: {integrity: sha512-1+ANPOWc6rB3IkSnElhjv6VLlKg2dSv/OWClUyZimbLsQyBn8Js9Vtdsi3UICJ2rIQ3k2la06dkB+C92QfhKmg==}
+  '@types/react-test-renderer@18.3.0':
+    resolution: {integrity: sha512-HW4MuEYxfDbOHQsVlY/XtOvNHftCVEPhJF2pQXXwcUiUF+Oyb0usgp48HSgpK5rt8m9KZb22yqOeZm+rrVG8gw==}
 
   '@types/react@18.2.75':
     resolution: {integrity: sha512-+DNnF7yc5y0bHkBTiLKqXFe+L4B3nvOphiMY3tuA5X10esmjqk7smyBZzbGTy2vsiy/Bnzj8yFIBL8xhRacoOg==}
@@ -5909,7 +5909,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@types/react-test-renderer@18.0.7':
+  '@types/react-test-renderer@18.3.0':
     dependencies:
       '@types/react': 18.2.75
 
