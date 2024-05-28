@@ -73,8 +73,8 @@ importers:
         specifier: ^4.5.3
         version: 4.5.3(@types/node@20.12.4)(terser@5.30.3)
       vite-plugin-dts:
-        specifier: ^3.8.1
-        version: 3.8.1(@types/node@20.12.4)(rollup@4.14.0)(typescript@5.4.5)(vite@4.5.3(@types/node@20.12.4)(terser@5.30.3))
+        specifier: ^3.9.1
+        version: 3.9.1(@types/node@20.12.4)(rollup@4.14.0)(typescript@5.4.5)(vite@4.5.3(@types/node@20.12.4)(terser@5.30.3))
       vitest:
         specifier: 1.4.0
         version: 1.4.0(@types/node@20.12.4)(terser@5.30.3)
@@ -3990,8 +3990,8 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite-plugin-dts@3.8.1:
-    resolution: {integrity: sha512-zEYyQxH7lKto1VTKZHF3ZZeOPkkJgnMrePY4VxDHfDSvDjmYMMfWjZxYmNwW8QxbaItWJQhhXY+geAbyNphI7g==}
+  vite-plugin-dts@3.9.1:
+    resolution: {integrity: sha512-rVp2KM9Ue22NGWB8dNtWEr+KekN3rIgz1tWD050QnRGlriUCmaDwa7qA5zDEjbXg5lAXhYMSBJtx3q3hQIJZSg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -8725,7 +8725,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@3.8.1(@types/node@20.12.4)(rollup@4.14.0)(typescript@5.4.5)(vite@4.5.3(@types/node@20.12.4)(terser@5.30.3)):
+  vite-plugin-dts@3.9.1(@types/node@20.12.4)(rollup@4.14.0)(typescript@5.4.5)(vite@4.5.3(@types/node@20.12.4)(terser@5.30.3)):
     dependencies:
       '@microsoft/api-extractor': 7.43.0(@types/node@20.12.4)
       '@rollup/pluginutils': 5.1.0(rollup@4.14.0)
