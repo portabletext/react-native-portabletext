@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.13](https://github.com/portabletext/react-native-portabletext/compare/v1.1.12...v1.1.13) (2024-09-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-native to v0.75.2 ([#150](https://github.com/portabletext/react-native-portabletext/issues/150)) ([6e12024](https://github.com/portabletext/react-native-portabletext/commit/6e12024780db193850e3e83822d0b2d7550aa995))
+
 ## [1.1.12](https://github.com/portabletext/react-native-portabletext/compare/v1.1.11...v1.1.12) (2024-05-28)
 
 
