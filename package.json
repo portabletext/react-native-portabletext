@@ -1,20 +1,20 @@
 {
-  "name": "@portabletext/react-native",
-  "version": "1.1.13",
+  "name": "@qpavy/protable-text-react-native",
+  "version": "1.0.1",
   "description": "*Experimental*: Render Portable Text with React Native",
   "keywords": [
     "portable-text"
   ],
-  "homepage": "https://github.com/portabletext/react-native-portabletext#readme",
+  "homepage": "https://github.com/qpavy/react-native-portabletext#readme",
   "bugs": {
-    "url": "https://github.com/portabletext/react-native-portabletext/issues"
+    "url": "https://github.com/qpavy/react-native-portabletext/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/portabletext/react-native-portabletext.git"
+    "url": "git+https://github.com/qpavy/react-native-portabletext.git"
   },
   "license": "MIT",
-  "author": "Sanity.io <hello@sanity.io>",
+  "author": "Quentin Pavy <contact@quentinpavy.com>",
   "type": "module",
   "main": "./dist/react-native-portable-text.es.js",
   "module": "./dist/react-native-portable-text.es.js",
@@ -26,7 +26,7 @@
     "build": "vite build -c ./vite.config.ts",
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint .",
-    "prepublishOnly": "pnpm build",
+    "prepublishOnly": "npm run build",
     "test": "vitest",
     "type-check": "tsc --noEmit"
   },
@@ -67,7 +67,6 @@
   "devDependencies": {
     "@react-native/polyfills": "^2.0.0",
     "@types/react": "^18.3.3",
-    "@types/react-native": "^0.73.0",
     "@types/react-test-renderer": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.11.0",
     "@typescript-eslint/parser": "^7.11.0",
@@ -80,7 +79,7 @@
     "prettier": "^3.2.5",
     "prettier-plugin-packagejson": "^2.5.0",
     "react": "^18.3.1",
-    "react-native": "^0.75.2",
+    "react-native": "^0.76.0",
     "react-test-renderer": "^18.3.1",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
@@ -90,7 +89,7 @@
   },
   "peerDependencies": {
     "react": "^17 || ^18",
-    "react-native": "^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71 || ^0.72 || ^0.73.0 || ^0.74.0 || ^0.75.0"
+    "react-native": "^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71 || ^0.72 || ^0.73.0 || ^0.74.0 || ^0.75.0 || ^0.76.0 || ^0.77.0 || ^0.78.0 || ^0.79.0 || ^0.80.0"
   },
   "packageManager": "pnpm@9.1.3",
   "publishConfig": {
