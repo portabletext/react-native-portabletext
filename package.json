@@ -76,7 +76,7 @@
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.6",
     "@react-native/babel-preset": "^0.76.9",
-    "@react-native/typescript-config": "^0.75.5",
+    "@react-native/typescript-config": "^0.76.9",
     "@sanity/prettier-config": "^2.0.1",
     "@types/react": "^18.3.23",
     "@types/react-test-renderer": "^18.3.1",
