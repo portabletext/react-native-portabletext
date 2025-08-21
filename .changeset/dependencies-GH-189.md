@@ -1,5 +1,5 @@
 ---
-"@portabletext/react-native": patch
+"@portabletext/react-native": minor
 ---
 
 fix(deps): update dependency @portabletext/react to v4
