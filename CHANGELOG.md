@@ -1,5 +1,11 @@
 # @portabletext/react-native
 
+## 2.3.0
+
+### Minor Changes
+
+- [`ad72075`](https://github.com/portabletext/react-native-portabletext/commit/ad720750ea285d94e643a504763a256aa80d6dbc) Thanks [@stipsan](https://github.com/stipsan)! - Support React Native 0.78 and React 19
+
 ## 2.2.0
 
 ### Minor Changes
