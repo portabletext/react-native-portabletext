@@ -1,5 +1,13 @@
 # @portabletext/react-native
 
+## 2.1.0
+
+### Minor Changes
+
+- [#189](https://github.com/portabletext/react-native-portabletext/pull/189) [`cb592b8`](https://github.com/portabletext/react-native-portabletext/commit/cb592b8401f73e70da8358a479ed57e1c11017e8) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency @portabletext/react to v4
+
+- [`b6954f6`](https://github.com/portabletext/react-native-portabletext/commit/b6954f6ec3a565653dc4e67914a8637a8c4f91df) Thanks [@stipsan](https://github.com/stipsan)! - Add support for react native 0.76, fixes #165
+
 ## 2.0.0
 
 ### Major Changes
