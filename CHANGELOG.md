@@ -1,5 +1,11 @@
 # @portabletext/react-native
 
+## 2.2.0
+
+### Minor Changes
+
+- [`19c3cff`](https://github.com/portabletext/react-native-portabletext/commit/19c3cff1ec5826c015316f05453d3443f25b1881) Thanks [@stipsan](https://github.com/stipsan)! - Support React Native 0.77
+
 ## 2.1.0
 
 ### Minor Changes
