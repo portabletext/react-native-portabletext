@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config/schema.json",
-  "changelog": ["@changesets/changelog-github", {"repo": "portabletext/react-native"}],
+  "changelog": ["@changesets/changelog-github", {"repo": "portabletext/react-native-portabletext"}],
   "commit": false,
   "access": "public",
   "baseBranch": "main",
