@@ -1,5 +1,11 @@
 # @portabletext/react-native
 
+## 2.5.0
+
+### Minor Changes
+
+- [#198](https://github.com/portabletext/react-native-portabletext/pull/198) [`525ed84`](https://github.com/portabletext/react-native-portabletext/commit/525ed848b8312b466095ab19751e39fd102b3cbf) Thanks [@stipsan](https://github.com/stipsan)! - Support React Native 0.80
+
 ## 2.4.0
 
 ### Minor Changes
