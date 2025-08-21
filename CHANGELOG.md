@@ -1,5 +1,15 @@
 # @portabletext/react-native
 
+## 2.0.0
+
+### Major Changes
+
+- [`81bfac2`](https://github.com/portabletext/react-native-portabletext/commit/81bfac236239b8920571f805ace58ffa878093c3) Thanks [@stipsan](https://github.com/stipsan)! - Drop support for React 17 and React Native 0.66-0.73. Requires React 18.2 and React Native 0.74 or 0.75.
+
+### Patch Changes
+
+- [`37b6c16`](https://github.com/portabletext/react-native-portabletext/commit/37b6c1627a0aec5a3e250668849e4efe4d3f2bb4) Thanks [@stipsan](https://github.com/stipsan)! - Update LICENSE year to 2025
+
 ## [1.1.13](https://github.com/portabletext/react-native-portabletext/compare/v1.1.12...v1.1.13) (2024-09-10)
 
 ### Bug Fixes
