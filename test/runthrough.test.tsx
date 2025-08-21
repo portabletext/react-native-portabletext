@@ -2,7 +2,6 @@
 import React from 'react'
 import {Text, View} from 'react-native'
 import renderer from 'react-test-renderer'
-import {expect, test} from 'vitest'
 
 import {PortableText, PortableTextReactComponents} from '../src'
 import * as fixtures from './fixtures'
