@@ -97,7 +97,7 @@
     "typescript": "5.9.2"
   },
   "peerDependencies": {
-    "react": "^18.2",
+    "react": "^18.2 || ^19.0.0",
     "react-native": "^0.74 || ^0.75 || ^0.76 || ^0.77"
   },
   "packageManager": "pnpm@10.15.0",
