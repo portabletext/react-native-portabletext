@@ -75,8 +75,8 @@
     "@babel/preset-typescript": "^7.27.1",
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.6",
-    "@react-native/babel-preset": "^0.78.3",
-    "@react-native/typescript-config": "^0.78.3",
+    "@react-native/babel-preset": "^0.79.6",
+    "@react-native/typescript-config": "^0.79.6",
     "@sanity/prettier-config": "^2.0.1",
     "@testing-library/react-native": "^13.3.1",
     "@types/jest": "^30.0.0",
@@ -92,14 +92,14 @@
     "jest": "^30.0.5",
     "prettier": "^3.6.2",
     "react": "^19.1.1",
-    "react-native": "^0.78.3",
+    "react-native": "^0.79.6",
     "react-native-builder-bob": "^0.40.13",
     "react-test-renderer": "^19.1.1",
     "typescript": "5.9.2"
   },
   "peerDependencies": {
     "react": "^18.2 || ^19",
-    "react-native": "^0.74 || ^0.75 || ^0.76 || ^0.77 || ^0.78"
+    "react-native": "^0.74 || ^0.75 || ^0.76 || ^0.77 || ^0.78 || ^0.79"
   },
   "packageManager": "pnpm@10.15.0",
   "publishConfig": {
