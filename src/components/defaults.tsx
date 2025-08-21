@@ -1,6 +1,4 @@
 import type {PortableTextReactComponents} from '@portabletext/react'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import React from 'react'
 import {Text} from 'react-native'
 
 import {defaultBlockStyles} from './block'

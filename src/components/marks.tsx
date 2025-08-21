@@ -1,7 +1,6 @@
 import type {PortableTextMarkComponent} from '@portabletext/react'
 import type {TypedObject} from '@portabletext/types'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import React, {useCallback} from 'react'
+import {useCallback} from 'react'
 import {Linking, Text} from 'react-native'
 
 import {markStyles} from './styles'
@@ -23,10 +22,10 @@ const Link: PortableTextMarkComponent<DefaultLink> = ({children, value}) => {
 }
 
 export const defaultMarks: Record<string, PortableTextMarkComponent | undefined> = {
-  em: ({children}) => <Text style={markStyles.em}>{children}</Text>,
-  strong: ({children}) => <Text style={markStyles.strong}>{children}</Text>,
-  code: ({children}) => <Text style={markStyles.code}>{children}</Text>,
-  underline: ({children}) => <Text style={markStyles.underline}>{children}</Text>,
+  'em': ({children}) => <Text style={markStyles.em}>{children}</Text>,
+  'strong': ({children}) => <Text style={markStyles.strong}>{children}</Text>,
+  'code': ({children}) => <Text style={markStyles.code}>{children}</Text>,
+  'underline': ({children}) => <Text style={markStyles.underline}>{children}</Text>,
   'strike-through': ({children}) => <Text style={markStyles.strikeThrough}>{children}</Text>,
-  link: Link,
+  'link': Link,
 }
