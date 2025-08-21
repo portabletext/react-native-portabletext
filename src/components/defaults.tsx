@@ -1,4 +1,5 @@
 import type {PortableTextReactComponents} from '@portabletext/react'
+import type {JSX} from 'react'
 import {Text} from 'react-native'
 
 import {defaultBlockStyles} from './block'
@@ -12,7 +13,7 @@ import {
   DefaultUnknownType,
 } from './unknown'
 
-export const DefaultHardBreak = (): React.JSX.Element => <Text>{'\n'}</Text>
+export const DefaultHardBreak = (): JSX.Element => <Text>{'\n'}</Text>
 
 export const defaultComponents: PortableTextReactComponents = {
   types: {},
