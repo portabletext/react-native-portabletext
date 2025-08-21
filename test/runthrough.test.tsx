@@ -1,5 +1,5 @@
 import {Text, View} from 'react-native'
-import renderer from 'react-test-renderer'
+import {render, screen} from '@testing-library/react-native'
 
 import {PortableText, PortableTextReactComponents} from '../src'
 import * as fixtures from './fixtures'
@@ -17,11 +17,8 @@ test('never mutates input', () => {
     }
     const originalInput = JSON.parse(JSON.stringify(fixture.input))
     const passedInput = fixture.input
-    const tree = renderer
-      .create(<PortableText value={passedInput} components={components} />)
-      .toJSON()
-
-    expect(tree).toMatchSnapshot(key)
+    render(<PortableText value={passedInput} components={components} />)
+    expect(screen.toJSON()).toMatchSnapshot(key)
 
     // Should not mutate the input
     expect(originalInput).toMatchObject(passedInput)
