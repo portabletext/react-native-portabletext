@@ -1,87 +1,72 @@
-<!-- markdownlint-disable --><!-- textlint-disable -->
-
-# 📓 Changelog
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+# @portabletext/react-native
 
 ## [1.1.13](https://github.com/portabletext/react-native-portabletext/compare/v1.1.12...v1.1.13) (2024-09-10)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency react-native to v0.75.2 ([#150](https://github.com/portabletext/react-native-portabletext/issues/150)) ([6e12024](https://github.com/portabletext/react-native-portabletext/commit/6e12024780db193850e3e83822d0b2d7550aa995))
+- **deps:** update dependency react-native to v0.75.2 ([#150](https://github.com/portabletext/react-native-portabletext/issues/150)) ([6e12024](https://github.com/portabletext/react-native-portabletext/commit/6e12024780db193850e3e83822d0b2d7550aa995))
 
 ## [1.1.12](https://github.com/portabletext/react-native-portabletext/compare/v1.1.11...v1.1.12) (2024-05-28)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency react-native to v0.74.1 ([#144](https://github.com/portabletext/react-native-portabletext/issues/144)) ([b8cc814](https://github.com/portabletext/react-native-portabletext/commit/b8cc8147fc3c8e31229de159eee7728599e7e344))
+- **deps:** update dependency react-native to v0.74.1 ([#144](https://github.com/portabletext/react-native-portabletext/issues/144)) ([b8cc814](https://github.com/portabletext/react-native-portabletext/commit/b8cc8147fc3c8e31229de159eee7728599e7e344))
 
 ## [1.1.11](https://github.com/portabletext/react-native-portabletext/compare/v1.1.10...v1.1.11) (2024-05-28)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @portabletext/react to ^3.1.0 ([#146](https://github.com/portabletext/react-native-portabletext/issues/146)) ([b4fb82b](https://github.com/portabletext/react-native-portabletext/commit/b4fb82bee906cf42e0c62ab89a14da82b51b04af))
+- **deps:** update dependency @portabletext/react to ^3.1.0 ([#146](https://github.com/portabletext/react-native-portabletext/issues/146)) ([b4fb82b](https://github.com/portabletext/react-native-portabletext/commit/b4fb82bee906cf42e0c62ab89a14da82b51b04af))
 
 ## [1.1.10](https://github.com/portabletext/react-native-portabletext/compare/v1.1.9...v1.1.10) (2024-04-11)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @portabletext/react to ^3.0.18 ([#134](https://github.com/portabletext/react-native-portabletext/issues/134)) ([427e40e](https://github.com/portabletext/react-native-portabletext/commit/427e40eeb7c55e7f17e325fb26c6a447600bb2ca))
-* **deps:** update dependency @portabletext/types to ^2.0.13 ([#132](https://github.com/portabletext/react-native-portabletext/issues/132)) ([8ced8c0](https://github.com/portabletext/react-native-portabletext/commit/8ced8c0b46ec81eedb83f2538995c9b06ff6ee49))
+- **deps:** update dependency @portabletext/react to ^3.0.18 ([#134](https://github.com/portabletext/react-native-portabletext/issues/134)) ([427e40e](https://github.com/portabletext/react-native-portabletext/commit/427e40eeb7c55e7f17e325fb26c6a447600bb2ca))
+- **deps:** update dependency @portabletext/types to ^2.0.13 ([#132](https://github.com/portabletext/react-native-portabletext/issues/132)) ([8ced8c0](https://github.com/portabletext/react-native-portabletext/commit/8ced8c0b46ec81eedb83f2538995c9b06ff6ee49))
 
 ## [1.1.9](https://github.com/portabletext/react-native-portabletext/compare/v1.1.8...v1.1.9) (2024-04-05)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @portabletext/react to ^3.0.17 ([#125](https://github.com/portabletext/react-native-portabletext/issues/125)) ([314007c](https://github.com/portabletext/react-native-portabletext/commit/314007c19acd605af03e33e1b35ebaa55fd9825c))
+- **deps:** update dependency @portabletext/react to ^3.0.17 ([#125](https://github.com/portabletext/react-native-portabletext/issues/125)) ([314007c](https://github.com/portabletext/react-native-portabletext/commit/314007c19acd605af03e33e1b35ebaa55fd9825c))
 
 ## [1.1.8](https://github.com/portabletext/react-native-portabletext/compare/v1.1.7...v1.1.8) (2024-04-05)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @portabletext/react to ^3.0.15 ([#118](https://github.com/portabletext/react-native-portabletext/issues/118)) ([4323aae](https://github.com/portabletext/react-native-portabletext/commit/4323aae34b8f6e6d38192e710c236d86226f8e40))
-* **deps:** update dependency @portabletext/types to ^2.0.12 ([#119](https://github.com/portabletext/react-native-portabletext/issues/119)) ([a698505](https://github.com/portabletext/react-native-portabletext/commit/a6985055e31f28a824ff105bea86b09bf04f285b))
+- **deps:** update dependency @portabletext/react to ^3.0.15 ([#118](https://github.com/portabletext/react-native-portabletext/issues/118)) ([4323aae](https://github.com/portabletext/react-native-portabletext/commit/4323aae34b8f6e6d38192e710c236d86226f8e40))
+- **deps:** update dependency @portabletext/types to ^2.0.12 ([#119](https://github.com/portabletext/react-native-portabletext/issues/119)) ([a698505](https://github.com/portabletext/react-native-portabletext/commit/a6985055e31f28a824ff105bea86b09bf04f285b))
 
 ## [1.1.7](https://github.com/portabletext/react-native-portabletext/compare/v1.1.6...v1.1.7) (2024-03-18)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @portabletext/react to ^3.0.13 ([#111](https://github.com/portabletext/react-native-portabletext/issues/111)) ([39066aa](https://github.com/portabletext/react-native-portabletext/commit/39066aa2429e3c9b3fa0d0399b82a5120de5b191))
-* **deps:** update dependency @portabletext/types to ^2.0.10 ([#107](https://github.com/portabletext/react-native-portabletext/issues/107)) ([b796642](https://github.com/portabletext/react-native-portabletext/commit/b796642147a27f26fca14fedb60b5b1fbfccd4d2))
+- **deps:** update dependency @portabletext/react to ^3.0.13 ([#111](https://github.com/portabletext/react-native-portabletext/issues/111)) ([39066aa](https://github.com/portabletext/react-native-portabletext/commit/39066aa2429e3c9b3fa0d0399b82a5120de5b191))
+- **deps:** update dependency @portabletext/types to ^2.0.10 ([#107](https://github.com/portabletext/react-native-portabletext/issues/107)) ([b796642](https://github.com/portabletext/react-native-portabletext/commit/b796642147a27f26fca14fedb60b5b1fbfccd4d2))
 
 ## [1.1.6](https://github.com/portabletext/react-native-portabletext/compare/v1.1.5...v1.1.6) (2024-03-16)
 
-
 ### Bug Fixes
 
-* add TS exports ([506e375](https://github.com/portabletext/react-native-portabletext/commit/506e3755b9f61f2ef1cdf72ea282ddb1ac5b7780)), closes [#92](https://github.com/portabletext/react-native-portabletext/issues/92)
-* **deps:** update dependency @portabletext/react to ^3.0.12 ([#99](https://github.com/portabletext/react-native-portabletext/issues/99)) ([700af50](https://github.com/portabletext/react-native-portabletext/commit/700af509ed5d197bbeadf4dfaf78cabaffc43418))
-* **deps:** update dependency @portabletext/types to ^2.0.9 ([#100](https://github.com/portabletext/react-native-portabletext/issues/100)) ([0c924ed](https://github.com/portabletext/react-native-portabletext/commit/0c924ed2f521a0255ecde564ee878c7257c5da2a))
-* **deps:** update dependency react-native to ^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71 || ^0.72 || ^0.73.0 ([#85](https://github.com/portabletext/react-native-portabletext/issues/85)) ([52d9273](https://github.com/portabletext/react-native-portabletext/commit/52d9273744fd941d8d2f66e675483aae54d60bc7))
+- add TS exports ([506e375](https://github.com/portabletext/react-native-portabletext/commit/506e3755b9f61f2ef1cdf72ea282ddb1ac5b7780)), closes [#92](https://github.com/portabletext/react-native-portabletext/issues/92)
+- **deps:** update dependency @portabletext/react to ^3.0.12 ([#99](https://github.com/portabletext/react-native-portabletext/issues/99)) ([700af50](https://github.com/portabletext/react-native-portabletext/commit/700af509ed5d197bbeadf4dfaf78cabaffc43418))
+- **deps:** update dependency @portabletext/types to ^2.0.9 ([#100](https://github.com/portabletext/react-native-portabletext/issues/100)) ([0c924ed](https://github.com/portabletext/react-native-portabletext/commit/0c924ed2f521a0255ecde564ee878c7257c5da2a))
+- **deps:** update dependency react-native to ^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71 || ^0.72 || ^0.73.0 ([#85](https://github.com/portabletext/react-native-portabletext/issues/85)) ([52d9273](https://github.com/portabletext/react-native-portabletext/commit/52d9273744fd941d8d2f66e675483aae54d60bc7))
 
 ## [1.1.5](https://github.com/portabletext/react-native-portabletext/compare/v1.1.4...v1.1.5) (2023-10-10)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @portabletext/react to ^3.0.11 ([#72](https://github.com/portabletext/react-native-portabletext/issues/72)) ([90bc1a4](https://github.com/portabletext/react-native-portabletext/commit/90bc1a4ca70ef2c25c248b0755a092c5a613b4da))
-* **deps:** update dependency @portabletext/types to ^2.0.8 ([#70](https://github.com/portabletext/react-native-portabletext/issues/70)) ([627de5d](https://github.com/portabletext/react-native-portabletext/commit/627de5d8242165a14f885124a6e2fc5898820111))
+- **deps:** update dependency @portabletext/react to ^3.0.11 ([#72](https://github.com/portabletext/react-native-portabletext/issues/72)) ([90bc1a4](https://github.com/portabletext/react-native-portabletext/commit/90bc1a4ca70ef2c25c248b0755a092c5a613b4da))
+- **deps:** update dependency @portabletext/types to ^2.0.8 ([#70](https://github.com/portabletext/react-native-portabletext/issues/70)) ([627de5d](https://github.com/portabletext/react-native-portabletext/commit/627de5d8242165a14f885124a6e2fc5898820111))
 
 ## [1.1.4](https://github.com/portabletext/react-native-portabletext/compare/v1.1.3...v1.1.4) (2023-09-29)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @portabletext/react to ^3.0.9 ([1799079](https://github.com/portabletext/react-native-portabletext/commit/17990795201fc7da7976a6ae2c2ac8c20320f0f5))
-* **deps:** update dependency @portabletext/types to ^2.0.7 ([#54](https://github.com/portabletext/react-native-portabletext/issues/54)) ([764bd6b](https://github.com/portabletext/react-native-portabletext/commit/764bd6b467195e2d66a9ba5f973b02df6477a88a))
+- **deps:** update dependency @portabletext/react to ^3.0.9 ([1799079](https://github.com/portabletext/react-native-portabletext/commit/17990795201fc7da7976a6ae2c2ac8c20320f0f5))
+- **deps:** update dependency @portabletext/types to ^2.0.7 ([#54](https://github.com/portabletext/react-native-portabletext/issues/54)) ([764bd6b](https://github.com/portabletext/react-native-portabletext/commit/764bd6b467195e2d66a9ba5f973b02df6477a88a))
 
 ## [1.1.3](https://github.com/portabletext/react-native-portabletext/compare/v1.1.2...v1.1.3) (2023-08-24)
 
