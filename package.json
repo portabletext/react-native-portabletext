@@ -78,7 +78,7 @@
     "@react-native/babel-preset": "^0.81.1",
     "@react-native/typescript-config": "^0.81.1",
     "@sanity/prettier-config": "^2.0.1",
-    "@testing-library/react-native": "^13.3.2",
+    "@testing-library/react-native": "^13.3.3",
     "@types/jest": "^30.0.0",
     "@types/react": "^19.1.11",
     "@typescript-eslint/eslint-plugin": "^8.41.0",
