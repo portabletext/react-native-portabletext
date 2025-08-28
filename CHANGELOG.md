@@ -1,5 +1,11 @@
 # @portabletext/react-native
 
+## 2.6.1
+
+### Patch Changes
+
+- [#207](https://github.com/portabletext/react-native-portabletext/pull/207) [`4988cd6`](https://github.com/portabletext/react-native-portabletext/commit/4988cd6f2558ad5c47d0afc793fa33512113da62) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency @portabletext/react to ^4.0.2
+
 ## 2.6.0
 
 ### Minor Changes
