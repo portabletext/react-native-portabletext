@@ -11,6 +11,12 @@
       "semanticCommitType": "fix"
     },
     {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": ["@types/react", "react", "react-native"],
+      "rangeStrategy": "bump",
+      "semanticCommitType": "chore"
+    }
+    {
       "matchDepTypes": ["peerDependencies"],
       "matchPackageNames": ["react", "react-native"],
       "rangeStrategy": "widen",
