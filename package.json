@@ -75,7 +75,7 @@
     "@babel/preset-typescript": "^7.27.1",
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.7",
-    "@react-native/babel-preset": "^0.81.1",
+    "@react-native/babel-preset": "^0.82.0",
     "@react-native/typescript-config": "^0.81.1",
     "@sanity/prettier-config": "^2.0.1",
     "@testing-library/react-native": "^13.3.3",
