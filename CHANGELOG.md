@@ -1,5 +1,11 @@
 # @portabletext/react-native
 
+## 2.6.3
+
+### Patch Changes
+
+- [#226](https://github.com/portabletext/react-native-portabletext/pull/226) [`49e8355`](https://github.com/portabletext/react-native-portabletext/commit/49e8355eab2f13232d11fe604845a7fc80afd9cb) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency react-native to v0.82.0
+
 ## 2.6.2
 
 ### Patch Changes
