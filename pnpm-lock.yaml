@@ -88,8 +88,8 @@ importers:
         specifier: ^0.82.0
         version: 0.82.0(@babel/core@7.28.5)(@types/react@19.2.2)(react@19.2.0)
       react-native-builder-bob:
-        specifier: ^0.40.13
-        version: 0.40.13
+        specifier: ^0.40.14
+        version: 0.40.14
       react-test-renderer:
         specifier: ^19.2.0
         version: 19.2.0(react@19.2.0)
@@ -3347,8 +3347,8 @@ packages:
   react-is@19.2.0:
     resolution: {integrity: sha512-x3Ax3kNSMIIkyVYhWPyO09bu0uttcAIoecO/um/rKGQ4EltYWVYtyiGkS/3xMynrbVQdS69Jhlv8FXUEZehlzA==}
 
-  react-native-builder-bob@0.40.13:
-    resolution: {integrity: sha512-CtucAJ5PMLH3GPNlg3TB5rb3UPot6VjkD9T8Uhz/AAWit/DmWll0zG33ZZeka69E2569saAjShDz3IKAoYGFtA==}
+  react-native-builder-bob@0.40.14:
+    resolution: {integrity: sha512-NvFFehDDVT1FqZHDDriX3mm4aQVSLXz2uuLPKD2g7OIwxGvWw1BJ7vRElS03/fnpOHAY6y7vF0JEjrytEF1BRQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >= 23.4.0}
     hasBin: true
 
@@ -8116,7 +8116,7 @@ snapshots:
 
   react-is@19.2.0: {}
 
-  react-native-builder-bob@0.40.13:
+  react-native-builder-bob@0.40.14:
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-flow-strip-types': 7.27.1(@babel/core@7.28.5)
