@@ -37,8 +37,8 @@ importers:
         specifier: ^0.82.0
         version: 0.82.0(@babel/core@7.28.4)
       '@react-native/typescript-config':
-        specifier: ^0.82.0
-        version: 0.82.0
+        specifier: ^0.82.1
+        version: 0.82.1
       '@sanity/prettier-config':
         specifier: ^2.0.1
         version: 2.0.1(prettier@3.6.2)
@@ -1234,8 +1234,8 @@ packages:
   '@react-native/normalize-colors@0.82.0':
     resolution: {integrity: sha512-oinsK6TYEz5RnFTSk9P+hJ/N/E0pOG76O0euU0Gf3BlXArDpS8m3vrGcTjqeQvajRIaYVHIRAY9hCO6q+exyLg==}
 
-  '@react-native/typescript-config@0.82.0':
-    resolution: {integrity: sha512-L/pZLFh52NUZ7sPAs8IAkQXz/fepuduceqkog6j9YYvbSqS9SQbLSCV9ss/v3XZHaTtRMQD1eq+8WJA0HzqhzA==}
+  '@react-native/typescript-config@0.82.1':
+    resolution: {integrity: sha512-kCTjmBg44p0kqU4xEMg7l6SNJyHWTHuTqiT9MpHasEYcnVpBWyEQsSQAiVKONHwcUWcAktrGVLE1dYGfBmPJ3Q==}
 
   '@react-native/virtualized-lists@0.82.0':
     resolution: {integrity: sha512-fReDITtqwWdN29doPHhmeQEqa12ATJ4M2Y1MrT8Q1Hoy5a0H3oEn9S7fknGr7Pj+/I77yHyJajUbCupnJ8vkFA==}
@@ -5511,7 +5511,7 @@ snapshots:
 
   '@react-native/normalize-colors@0.82.0': {}
 
-  '@react-native/typescript-config@0.82.0': {}
+  '@react-native/typescript-config@0.82.1': {}
 
   '@react-native/virtualized-lists@0.82.0(@types/react@19.2.2)(react-native@0.82.0(@babel/core@7.28.4)(@types/react@19.2.2)(react@19.2.0))(react@19.2.0)':
     dependencies:
