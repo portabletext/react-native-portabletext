@@ -95,7 +95,7 @@
     "react-native": "^0.82.0",
     "react-native-builder-bob": "^0.40.14",
     "react-test-renderer": "^19.2.0",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "peerDependencies": {
     "react": "^18.2 || ^19",
