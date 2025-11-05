@@ -65,7 +65,7 @@
     ]
   },
   "dependencies": {
-    "@portabletext/react": "^4.0.3",
+    "@portabletext/react": "^5.0.0",
     "@portabletext/types": "^3.0.0"
   },
   "devDependencies": {
