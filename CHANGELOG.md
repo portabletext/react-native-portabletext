@@ -1,5 +1,11 @@
 # @portabletext/react-native
 
+## 3.0.0
+
+### Major Changes
+
+- [#238](https://github.com/portabletext/react-native-portabletext/pull/238) [`dcb69db`](https://github.com/portabletext/react-native-portabletext/commit/dcb69dbc4a5e7944edc5ce5cc57c7b804545478d) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency @portabletext/types to v3
+
 ## 2.6.3
 
 ### Patch Changes
