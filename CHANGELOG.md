@@ -1,5 +1,17 @@
 # @portabletext/react-native
 
+## 3.0.0
+
+### Major Changes
+
+- [#238](https://github.com/portabletext/react-native-portabletext/pull/238) [`dcb69db`](https://github.com/portabletext/react-native-portabletext/commit/dcb69dbc4a5e7944edc5ce5cc57c7b804545478d) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency @portabletext/types to v3
+
+### Patch Changes
+
+- [#250](https://github.com/portabletext/react-native-portabletext/pull/250) [`e76f48f`](https://github.com/portabletext/react-native-portabletext/commit/e76f48fb7e78396e3695ce8187a2955142f15099) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency @portabletext/types to ^3.0.1
+
+- [#256](https://github.com/portabletext/react-native-portabletext/pull/256) [`f4e18e1`](https://github.com/portabletext/react-native-portabletext/commit/f4e18e11adbc6b2a4813f80a0732954ac67f852b) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency react-native to v0.83.1
+
 ## 2.6.3
 
 ### Patch Changes
