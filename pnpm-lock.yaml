@@ -12,8 +12,8 @@ importers:
         specifier: ^4.0.3
         version: 4.0.3(react@19.2.3)
       '@portabletext/types':
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^4.0.0
+        version: 4.0.1
     devDependencies:
       '@babel/core':
         specifier: ^7.28.5
@@ -1083,8 +1083,8 @@ packages:
     resolution: {integrity: sha512-2e6i2gSQsrA/5OL5Gm4/9bxB9MNO73Fa47zj+0mT93xkoQUCGCWX5fZh1YBJ86hszaRYlqvqG08oULxvvPPp/Q==}
     engines: {node: ^14.13.1 || >=16.0.0 || >=18.0.0}
 
-  '@portabletext/types@3.0.1':
-    resolution: {integrity: sha512-Axessc2mZ6tjbD2qIZdTZIEfBtzJBe/1pzKF372cUar6ccUCfgXU4vaKgIbqB33mB6rI75omx9rrm+SgR4rIAA==}
+  '@portabletext/types@4.0.1':
+    resolution: {integrity: sha512-L8PZjVjmdKpW+82c1oNqGMqCOtQD2xORqJfr6Is7X5XXbz38eLYY79IM/1ok+Esf/iGOPtEYORdcf0ETmsWYew==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
   '@react-native/assets-registry@0.83.1':
@@ -5205,7 +5205,7 @@ snapshots:
 
   '@portabletext/types@2.0.15': {}
 
-  '@portabletext/types@3.0.1': {}
+  '@portabletext/types@4.0.1': {}
 
   '@react-native/assets-registry@0.83.1': {}
 
