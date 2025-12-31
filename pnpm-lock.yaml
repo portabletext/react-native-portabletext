@@ -13,7 +13,7 @@ importers:
         version: 4.0.3(react@19.2.3)
       '@portabletext/types':
         specifier: ^3.0.0
-        version: 3.0.0
+        version: 3.0.1
     devDependencies:
       '@babel/core':
         specifier: ^7.28.5
@@ -1175,8 +1175,8 @@ packages:
     resolution: {integrity: sha512-2e6i2gSQsrA/5OL5Gm4/9bxB9MNO73Fa47zj+0mT93xkoQUCGCWX5fZh1YBJ86hszaRYlqvqG08oULxvvPPp/Q==}
     engines: {node: ^14.13.1 || >=16.0.0 || >=18.0.0}
 
-  '@portabletext/types@3.0.0':
-    resolution: {integrity: sha512-7U8+bFcnguNtXr4rwMDj0EvJJDRzLaaof2mQqCjUcqxuuJpAppFaATZgrKmPI1uBgtFMi4unk1nIaOOmLHrX8Q==}
+  '@portabletext/types@3.0.1':
+    resolution: {integrity: sha512-Axessc2mZ6tjbD2qIZdTZIEfBtzJBe/1pzKF372cUar6ccUCfgXU4vaKgIbqB33mB6rI75omx9rrm+SgR4rIAA==}
     engines: {node: '>=20.19 <22 || >=22.12'}
 
   '@prettier/plugin-oxc@0.0.4':
@@ -5410,7 +5410,7 @@ snapshots:
 
   '@portabletext/types@2.0.15': {}
 
-  '@portabletext/types@3.0.0': {}
+  '@portabletext/types@3.0.1': {}
 
   '@prettier/plugin-oxc@0.0.4':
     dependencies:
