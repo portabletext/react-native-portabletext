@@ -5,7 +5,7 @@
 
 /** @type {import('jest').Config} */
 const config = {
-  preset: 'react-native',
+  preset: '@react-native/jest-preset',
   snapshotFormat: {printBasicPrototype: false},
   transformIgnorePatterns: ['node_modules/(?!.pnpm|react-native|@react-native)'],
 }
