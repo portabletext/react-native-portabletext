@@ -1,10 +1,8 @@
 # @portabletext/react-native
 
-**Note: Experimental!** Please report issues and feedback.
-
 Render [Portable Text](https://portabletext.org/) with React Native.
 
-Utilizes [@portabletext/react](https://github.com/portabletext/react-portabletext) under the hood, and thus has the exact same API, but will render React Native views instead of HTML.
+Uses [@portabletext/react](https://github.com/portabletext/react-portabletext) under the hood, and has the same API (except `listNestingMode`, which this package's `PortableText` does not accept), but renders React Native views instead of HTML.
 
 ## Installation
 
