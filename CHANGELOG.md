@@ -1,5 +1,17 @@
 # @portabletext/react-native
 
+## 3.0.1
+
+### Patch Changes
+
+- [#259](https://github.com/portabletext/react-native-portabletext/pull/259) [`bf47d2a`](https://github.com/portabletext/react-native-portabletext/commit/bf47d2a2fbf976ef244aead876b13a3eadd8e29a) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update dependency @portabletext/types to v4
+
+- [#281](https://github.com/portabletext/react-native-portabletext/pull/281) [`bee1cec`](https://github.com/portabletext/react-native-portabletext/commit/bee1cece6670412fd59b8204ccf6a614c365e284) Thanks [@christianhg](https://github.com/christianhg)! - docs: drop the experimental label
+
+- [#277](https://github.com/portabletext/react-native-portabletext/pull/277) [`c0fe4c2`](https://github.com/portabletext/react-native-portabletext/commit/c0fe4c2bf5322d1df24ab3dd7e2474fd006a9ca3) Thanks [@ldabiralai](https://github.com/ldabiralai)! - Support react-native 0.85
+
+- [#276](https://github.com/portabletext/react-native-portabletext/pull/276) [`ea82304`](https://github.com/portabletext/react-native-portabletext/commit/ea82304f53451c25f982e0cedcfc6fe459083d1e) Thanks [@ldabiralai](https://github.com/ldabiralai)! - Support react-native 0.84
+
 ## 3.0.0
 
 ### Major Changes
