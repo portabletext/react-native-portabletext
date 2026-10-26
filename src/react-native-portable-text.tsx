@@ -13,6 +13,7 @@ export function PortableText<B extends TypedObject = PortableTextBlock>(
   return (
     <BasePortableText
       {...props}
+      listNestingMode="direct"
       components={mergeComponents(defaultComponents, props.components ?? {})}
     />
   )

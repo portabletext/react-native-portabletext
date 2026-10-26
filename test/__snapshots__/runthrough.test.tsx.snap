@@ -642,51 +642,51 @@ exports[`never mutates input: customListItemType 1`] = `
       }
     >
       Square 2
-      <View
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "marginVertical": 0,
+        },
+        {
+          "paddingLeft": 32,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+        }
+      }
+    >
+      <Text
         style={
-          [
-            {
-              "marginVertical": 0,
-            },
-            {
-              "paddingLeft": 32,
-            },
-          ]
+          {
+            "fontWeight": "bold",
+            "marginLeft": 10,
+            "marginRight": 10,
+          }
         }
       >
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "justifyContent": "flex-start",
-            }
+        ·
+      </Text>
+      <Text
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "row",
+            "flexWrap": "wrap",
           }
-        >
-          <Text
-            style={
-              {
-                "fontWeight": "bold",
-                "marginLeft": 10,
-                "marginRight": 10,
-              }
-            }
-          >
-            ·
-          </Text>
-          <Text
-            style={
-              {
-                "flex": 1,
-                "flexDirection": "row",
-                "flexWrap": "wrap",
-              }
-            }
-          >
-            Dat disc
-          </Text>
-        </View>
-      </View>
-    </Text>
+        }
+      >
+        Dat disc
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -889,84 +889,84 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         }
       >
         Item 2
-        <View
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 32,
-              },
-            ]
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
           }
         >
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          1
+          . 
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              1
-              . 
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Item 2, a
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          Item 2, a
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              2
-              . 
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Item 2, b
-            </Text>
-          </View>
-        </View>
-      </Text>
+          }
+        >
+          2
+          . 
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Item 2, b
+        </Text>
+      </View>
     </View>
     <View
       style={
@@ -985,7 +985,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
           }
         }
       >
-        3
+        4
         . 
       </Text>
       <Text
@@ -1053,51 +1053,51 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         }
       >
         In
-        <View
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 32,
-              },
-            ]
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
           }
         >
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Out
-            </Text>
-          </View>
-        </View>
-      </Text>
+          }
+        >
+          Out
+        </Text>
+      </View>
     </View>
     <View
       style={
@@ -1128,6 +1128,94 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         }
       >
         In
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Out
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginVertical": 0,
+            },
+            {
+              "paddingLeft": 48,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginRight": 10,
+              }
+            }
+          >
+            ·
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+              }
+            }
+          >
+            Even More
+          </Text>
+        </View>
         <View
           style={
             [
@@ -1135,7 +1223,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
                 "marginVertical": 0,
               },
               {
-                "paddingLeft": 32,
+                "paddingLeft": 64,
               },
             ]
           }
@@ -1168,130 +1256,42 @@ exports[`never mutates input: deepWeirdLists 1`] = `
                 }
               }
             >
-              Out
-              <View
-                style={
-                  [
-                    {
-                      "marginVertical": 0,
-                    },
-                    {
-                      "paddingLeft": 48,
-                    },
-                  ]
-                }
-              >
-                <View
-                  style={
-                    {
-                      "flexDirection": "row",
-                      "justifyContent": "flex-start",
-                    }
-                  }
-                >
-                  <Text
-                    style={
-                      {
-                        "fontWeight": "bold",
-                        "marginLeft": 10,
-                        "marginRight": 10,
-                      }
-                    }
-                  >
-                    ·
-                  </Text>
-                  <Text
-                    style={
-                      {
-                        "flex": 1,
-                        "flexDirection": "row",
-                        "flexWrap": "wrap",
-                      }
-                    }
-                  >
-                    Even More
-                    <View
-                      style={
-                        [
-                          {
-                            "marginVertical": 0,
-                          },
-                          {
-                            "paddingLeft": 64,
-                          },
-                        ]
-                      }
-                    >
-                      <View
-                        style={
-                          {
-                            "flexDirection": "row",
-                            "justifyContent": "flex-start",
-                          }
-                        }
-                      >
-                        <Text
-                          style={
-                            {
-                              "fontWeight": "bold",
-                              "marginLeft": 10,
-                              "marginRight": 10,
-                            }
-                          }
-                        >
-                          ·
-                        </Text>
-                        <Text
-                          style={
-                            {
-                              "flex": 1,
-                              "flexDirection": "row",
-                              "flexWrap": "wrap",
-                            }
-                          }
-                        >
-                          Even deeper
-                        </Text>
-                      </View>
-                    </View>
-                  </Text>
-                </View>
-              </View>
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
-            }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Two steps back
+              Even deeper
             </Text>
           </View>
         </View>
-      </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Two steps back
+        </Text>
+      </View>
     </View>
     <View
       style={
@@ -1322,51 +1322,64 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         }
       >
         All the way back
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "marginVertical": 0,
+            },
+            {
+              "paddingLeft": 48,
+            },
+          ]
+        }
+      >
         <View
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 48,
-              },
-            ]
+            {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
           }
         >
-          <View
+          <Text
             style={
               {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginRight": 10,
               }
             }
           >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
+            ·
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "flexDirection": "row",
+                "flexWrap": "wrap",
               }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Skip a step
-            </Text>
-          </View>
+            }
+          >
+            Skip a step
+          </Text>
         </View>
-      </Text>
+      </View>
     </View>
   </View>,
   <View
@@ -1411,52 +1424,52 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         }
       >
         New list
-        <View
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 32,
-              },
-            ]
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
           }
         >
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          1
+          . 
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              1
-              . 
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Next level
-            </Text>
-          </View>
-        </View>
-      </Text>
+          }
+        >
+          Next level
+        </Text>
+      </View>
     </View>
   </View>,
   <View
@@ -3188,144 +3201,144 @@ exports[`never mutates input: listIssue 1`] = `
         }
       >
         Lorem ipsum
-        <View
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 32,
-              },
-            ]
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
           }
         >
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-        </View>
-      </Text>
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
     </View>
     <View
       style={
@@ -3356,237 +3369,237 @@ exports[`never mutates input: listIssue 1`] = `
         }
       >
         Lorem ipsum
-        <View
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 32,
-              },
-            ]
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
           }
         >
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              ·
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Lorem ipsum
-            </Text>
-          </View>
-        </View>
-      </Text>
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Lorem ipsum
+        </Text>
+      </View>
     </View>
   </View>,
   <View
@@ -4978,161 +4991,161 @@ exports[`never mutates input: nestedLists 1`] = `
         }
       >
         Item 2, level 1
-        <View
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 32,
-              },
-            ]
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
           }
         >
-          <View
+          1
+          . 
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Item 3, level 2
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "marginVertical": 0,
+            },
+            {
+              "paddingLeft": 48,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <Text
             style={
               {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginRight": 10,
               }
             }
           >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              1
-              . 
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Item 3, level 2
-              <View
-                style={
-                  [
-                    {
-                      "marginVertical": 0,
-                    },
-                    {
-                      "paddingLeft": 48,
-                    },
-                  ]
-                }
-              >
-                <View
-                  style={
-                    {
-                      "flexDirection": "row",
-                      "justifyContent": "flex-start",
-                    }
-                  }
-                >
-                  <Text
-                    style={
-                      {
-                        "fontWeight": "bold",
-                        "marginLeft": 10,
-                        "marginRight": 10,
-                      }
-                    }
-                  >
-                    1
-                    . 
-                  </Text>
-                  <Text
-                    style={
-                      {
-                        "flex": 1,
-                        "flexDirection": "row",
-                        "flexWrap": "wrap",
-                      }
-                    }
-                  >
-                    Item 4, level 3
-                  </Text>
-                </View>
-              </View>
-            </Text>
-          </View>
-          <View
+            1
+            . 
+          </Text>
+          <Text
             style={
               {
+                "flex": 1,
                 "flexDirection": "row",
-                "justifyContent": "flex-start",
+                "flexWrap": "wrap",
               }
             }
           >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              2
-              . 
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Item 5, level 2
-            </Text>
-          </View>
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
-            }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              3
-              . 
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Item 6, level 2
-            </Text>
-          </View>
+            Item 4, level 3
+          </Text>
         </View>
-      </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          3
+          . 
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Item 5, level 2
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
+          }
+        >
+          4
+          . 
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          Item 6, level 2
+        </Text>
+      </View>
     </View>
     <View
       style={
@@ -5271,52 +5284,52 @@ exports[`never mutates input: nestedLists 1`] = `
         }
       >
         Item 2 of list 2
-        <View
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "paddingLeft": 32,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
           style={
-            [
-              {
-                "marginVertical": 0,
-              },
-              {
-                "paddingLeft": 32,
-              },
-            ]
+            {
+              "fontWeight": "bold",
+              "marginLeft": 10,
+              "marginRight": 10,
+            }
           }
         >
-          <View
-            style={
-              {
-                "flexDirection": "row",
-                "justifyContent": "flex-start",
-              }
+          1
+          . 
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "flexDirection": "row",
+              "flexWrap": "wrap",
             }
-          >
-            <Text
-              style={
-                {
-                  "fontWeight": "bold",
-                  "marginLeft": 10,
-                  "marginRight": 10,
-                }
-              }
-            >
-              1
-              . 
-            </Text>
-            <Text
-              style={
-                {
-                  "flex": 1,
-                  "flexDirection": "row",
-                  "flexWrap": "wrap",
-                }
-              }
-            >
-              Item 3 of list 2, level 2
-            </Text>
-          </View>
-        </View>
-      </Text>
+          }
+        >
+          Item 3 of list 2, level 2
+        </Text>
+      </View>
     </View>
   </View>,
   <View
