@@ -40,8 +40,8 @@ importers:
         specifier: ^0.85.1
         version: 0.85.1(@babel/core@7.28.5)(react@19.2.3)
       '@react-native/typescript-config':
-        specifier: ^0.85.1
-        version: 0.85.1
+        specifier: ^0.88.1
+        version: 0.88.1
       '@sanity/prettier-config':
         specifier: ^3.0.0
         version: 3.0.0(prettier@3.7.4)
@@ -1176,8 +1176,8 @@ packages:
   '@react-native/normalize-colors@0.85.1':
     resolution: {integrity: sha512-w+4ZZ2PvvtC0IODEmxizYOrHmeDgdzpM7CKhtTNWoNtDWZoi7/ZY3UmNntn9poPorUy5cwFbfYiP/8rJFEsFvQ==}
 
-  '@react-native/typescript-config@0.85.1':
-    resolution: {integrity: sha512-Smy8J4WRfsJU/ym5tMftaXaCK8A/KFzgRNlFdDhDwW5iEBUSaRdTjhewGLlL7czHWXc/iHLTFLBBfB9hhi3BfQ==}
+  '@react-native/typescript-config@0.88.1':
+    resolution: {integrity: sha512-kbTN2YsGw/sb1tkv5VE42az7qZct425+FM7nvE+wki10ek37PS5lDXXz60lB+UOX+gK9ffPl+s8sG9Nh2+q5+Q==}
 
   '@react-native/virtualized-lists@0.85.1':
     resolution: {integrity: sha512-RLpoATkxeTaYxna5dDLIxEtoStp9UL7ryHIIOmKnE9NQW3ggR+U9DWQPXQkOfRc7/kPYba4ynKA2fIISGysVTg==}
@@ -1331,6 +1331,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
     resolution: {integrity: sha512-ppLRUgHVaGRWUx0R0Ut06Mjo9gBaBkg3v/8AxusGLhsIotbBLuRk51rAzqLC8gq6NyyAojEXglNjzf6R948DNw==}
@@ -2228,11 +2229,12 @@ packages:
 
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@13.24.0:
     resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
@@ -5410,7 +5412,7 @@ snapshots:
 
   '@react-native/normalize-colors@0.85.1': {}
 
-  '@react-native/typescript-config@0.85.1': {}
+  '@react-native/typescript-config@0.88.1': {}
 
   '@react-native/virtualized-lists@0.85.1(@types/react@19.2.7)(react-native@0.85.1(@babel/core@7.28.5)(@react-native/jest-preset@0.85.1(@babel/core@7.28.5)(react@19.2.3))(@types/react@19.2.7)(react@19.2.3))(react@19.2.3)':
     dependencies:
