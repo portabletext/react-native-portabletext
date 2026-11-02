@@ -10,21 +10,10 @@ const DefaultListItem = defaultListItems.bullet || View
 export const DefaultUnknownType: PortableTextReactComponents['unknownType'] = ({value}) => {
   const warning = `Unknown block type "${value._type}", specify a component for it in the \`components.types\` prop`
 
-  // eslint-disable-next-line no-console
-  console.warn(warning)
-
   return <Text style={utilityStyles.hidden}>{warning}</Text>
 }
 
-export const DefaultUnknownMark: PortableTextReactComponents['unknownMark'] = ({
-  markType,
-  children,
-}) => {
-  // eslint-disable-next-line no-console
-  console.warn(
-    `Unknown mark type "${markType}", please specify a component for it in the \`components.marks\` prop`,
-  )
-
+export const DefaultUnknownMark: PortableTextReactComponents['unknownMark'] = ({children}) => {
   return <Text>{children}</Text>
 }
 
@@ -32,28 +21,12 @@ export const DefaultUnknownBlockStyle: PortableTextReactComponents['unknownBlock
   value,
   ...props
 }) => {
-  const style = value.style || 'normal'
-  // eslint-disable-next-line no-console
-  console.warn(
-    `Unknown block style "${style}", please specify a component for it in the \`components.block\` prop`,
-  )
-
   return <DefaultBlock {...props} value={{...value, style: 'normal'}} />
 }
 
 // This shouldn't ever happen, since we're overriding the main `List` component,
 // but leaving it here for posterity (and because the types _require_ one right now)
-export const DefaultUnknownList: PortableTextReactComponents['unknownList'] = ({
-  children,
-  value,
-}) => {
-  // eslint-disable-next-line no-console
-  console.warn(
-    `Unknown list style "${
-      value.listItem || 'bullet'
-    }", please specify a component for it in the \`components.list\` prop`,
-  )
-
+export const DefaultUnknownList: PortableTextReactComponents['unknownList'] = ({children}) => {
   return <View>{children}</View>
 }
 
@@ -61,11 +34,5 @@ export const DefaultUnknownListItem: PortableTextReactComponents['unknownListIte
   value,
   ...props
 }) => {
-  const style = value.listItem || 'bullet'
-  // eslint-disable-next-line no-console
-  console.warn(
-    `Unknown list item style "${style}", please specify a component for it in the \`components.list\` prop`,
-  )
-
   return <DefaultListItem {...props} value={{...value, style: 'bullet'}} />
 }
