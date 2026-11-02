@@ -12,7 +12,10 @@ interface DefaultLink extends TypedObject {
 
 const Link: PortableTextMarkComponent<DefaultLink> = ({children, value}) => {
   const href = value?.href
-  const onPress = useCallback(() => (href ? Linking.openURL(href) : undefined), [href])
+  const onPress = useCallback(
+    () => (href ? Linking.openURL(href).catch(() => undefined) : undefined),
+    [href],
+  )
 
   return (
     <Text onPress={onPress} style={markStyles.link}>
