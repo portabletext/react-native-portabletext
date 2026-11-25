@@ -1,10 +1,10 @@
-import {Text, View} from 'react-native'
 import {render, screen} from '@testing-library/react-native'
+import {Text, View} from 'react-native'
 
 import {PortableText, PortableTextReactComponents} from '../src'
 import * as fixtures from './fixtures'
 
-test('never mutates input', () => {
+test('never mutates input', async () => {
   for (const [key, fixture] of Object.entries(fixtures)) {
     if (key === 'default') {
       continue
@@ -17,7 +17,7 @@ test('never mutates input', () => {
     }
     const originalInput = JSON.parse(JSON.stringify(fixture.input))
     const passedInput = fixture.input
-    render(<PortableText value={passedInput} components={components} />)
+    await render(<PortableText value={passedInput} components={components} />)
     expect(screen.toJSON()).toMatchSnapshot(key)
 
     // Should not mutate the input

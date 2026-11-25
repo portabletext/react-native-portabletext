@@ -7,7 +7,7 @@
 const config = {
   preset: '@react-native/jest-preset',
   snapshotFormat: {printBasicPrototype: false},
-  transformIgnorePatterns: ['node_modules/(?!.pnpm|react-native|@react-native)'],
+  transformIgnorePatterns: ['node_modules/(?!.pnpm|react-native|@react-native|@portabletext)'],
 }
 
 module.exports = config

@@ -74,7 +74,7 @@ exports[`never mutates input: allBasicMarks 1`] = `
 `;
 
 exports[`never mutates input: allDefaultBlockStyles 1`] = `
-[
+<>
   <View
     style={
       {
@@ -92,7 +92,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       Sanity
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -110,7 +110,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       The outline
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -128,7 +128,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       More narrow details
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -146,7 +146,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       Even less thing
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -164,7 +164,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       Small header
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -182,7 +182,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       Lowest thing
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -198,7 +198,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       A block quote of awesomeness
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -211,7 +211,7 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       Plain old normal block
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -224,12 +224,12 @@ exports[`never mutates input: allDefaultBlockStyles 1`] = `
     >
       Default to "normal" style
     </Text>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: basicBulletList 1`] = `
-[
+<>
   <View
     style={
       {
@@ -242,7 +242,7 @@ exports[`never mutates input: basicBulletList 1`] = `
     >
       Let's test some of these lists!
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -348,8 +348,8 @@ exports[`never mutates input: basicBulletList 1`] = `
         Bullet 3
       </Text>
     </View>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: basicMarkMultipleAdjacentSpans 1`] = `
@@ -441,7 +441,7 @@ exports[`never mutates input: basicMarkSingleSpan 1`] = `
 `;
 
 exports[`never mutates input: basicNumberedList 1`] = `
-[
+<>
   <View
     style={
       {
@@ -454,7 +454,7 @@ exports[`never mutates input: basicNumberedList 1`] = `
     >
       Let's test some of these lists!
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -563,8 +563,8 @@ exports[`never mutates input: basicNumberedList 1`] = `
         Number 3
       </Text>
     </View>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: customBlockType 1`] = `<View />`;
@@ -739,7 +739,7 @@ exports[`never mutates input: customMarks 1`] = `
 `;
 
 exports[`never mutates input: deepWeirdLists 1`] = `
-[
+<>
   <View
     style={
       [
@@ -814,7 +814,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         Item b
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -1000,7 +1000,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         Item 3
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -1011,7 +1011,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
     <Text
       style={{}}
     />
-  </View>,
+  </View>
   <View
     style={
       [
@@ -1368,7 +1368,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         </View>
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -1458,7 +1458,7 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         </View>
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -1502,8 +1502,8 @@ exports[`never mutates input: deepWeirdLists 1`] = `
         New bullet list
       </Text>
     </View>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: emptyArray 1`] = `null`;
@@ -1553,7 +1553,7 @@ exports[`never mutates input: hardBreaks 1`] = `
 `;
 
 exports[`never mutates input: imageSupport 1`] = `
-[
+<>
   <View
     style={
       {
@@ -1566,13 +1566,13 @@ exports[`never mutates input: imageSupport 1`] = `
     >
       Also, images are pretty common.
     </Text>
-  </View>,
-  <View />,
-]
+  </View>
+  <View />
+</>
 `;
 
 exports[`never mutates input: imageWithHotspot 1`] = `
-[
+<>
   <View
     style={
       {
@@ -1585,9 +1585,9 @@ exports[`never mutates input: imageWithHotspot 1`] = `
     >
       Also, images are pretty common.
     </Text>
-  </View>,
-  <View />,
-]
+  </View>
+  <View />
+</>
 `;
 
 exports[`never mutates input: inlineBlockWithText 1`] = `
@@ -1609,7 +1609,7 @@ exports[`never mutates input: inlineBlockWithText 1`] = `
 `;
 
 exports[`never mutates input: inlineImages 1`] = `
-[
+<>
   <View
     style={
       {
@@ -1635,7 +1635,7 @@ exports[`never mutates input: inlineImages 1`] = `
       <View />
       Neat
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -1672,7 +1672,7 @@ exports[`never mutates input: inlineImages 1`] = `
          Baz!
       </Text>
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -1698,12 +1698,12 @@ exports[`never mutates input: inlineImages 1`] = `
          Baz!
       </Text>
     </Text>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: inlineNodes 1`] = `
-[
+<>
   <View
     style={
       {
@@ -1718,7 +1718,7 @@ exports[`never mutates input: inlineNodes 1`] = `
       <View />
       , and look forward to the next season!
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -1731,12 +1731,12 @@ exports[`never mutates input: inlineNodes 1`] = `
     >
       Sibling paragraph
     </Text>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: keyless 1`] = `
-[
+<>
   <View
     style={
       {
@@ -1750,7 +1750,7 @@ exports[`never mutates input: keyless 1`] = `
       sanity
        is a full time job
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -1764,8 +1764,8 @@ exports[`never mutates input: keyless 1`] = `
       in a world that 
       is always changing
     </Text>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: linkMarkDef 1`] = `
@@ -1796,7 +1796,7 @@ exports[`never mutates input: linkMarkDef 1`] = `
 `;
 
 exports[`never mutates input: listIssue 1`] = `
-[
+<>
   <View
     style={
       {
@@ -1814,7 +1814,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -1827,7 +1827,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -2160,7 +2160,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2178,7 +2178,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2191,7 +2191,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2204,7 +2204,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2217,7 +2217,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2235,7 +2235,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2281,7 +2281,7 @@ exports[`never mutates input: listIssue 1`] = `
       </Text>
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2299,7 +2299,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -2405,7 +2405,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2423,7 +2423,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -2622,7 +2622,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2640,7 +2640,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -2756,7 +2756,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2774,7 +2774,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -2911,7 +2911,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -2929,7 +2929,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -3004,7 +3004,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3022,7 +3022,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -3097,7 +3097,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3115,7 +3115,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -3588,7 +3588,7 @@ exports[`never mutates input: listIssue 1`] = `
         </View>
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3606,7 +3606,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3619,7 +3619,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3641,7 +3641,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3659,7 +3659,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3672,7 +3672,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3685,7 +3685,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3703,7 +3703,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3716,7 +3716,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -3889,7 +3889,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3902,7 +3902,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3920,7 +3920,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -3933,7 +3933,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -4240,7 +4240,7 @@ exports[`never mutates input: listIssue 1`] = `
         Lorem ipsum
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4258,7 +4258,7 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4271,12 +4271,12 @@ exports[`never mutates input: listIssue 1`] = `
     >
       Lorem ipsum
     </Text>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: listWithoutLevel 1`] = `
-[
+<>
   <View
     style={
       {
@@ -4294,7 +4294,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
     >
       In-person access: Research appointments
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4317,7 +4317,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
       </Text>
        by contacting the ACT archivist by email or phone. ACT generally does not accept walk-in research patrons, although requests may be made in person at the Archivist’s office (E15-222). ACT recommends arranging appointments at least three weeks in advance in order to ensure availability. ACT reserves the right to cancel research appointments at any time. Appointment scheduling is subject to institute holidays and closings. 
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4345,7 +4345,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
       </Text>
       Cambridge, Massachusetts 02139
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4363,7 +4363,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
     >
       In-person access: Space policies
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -4593,7 +4593,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
         Patrons may only browse materials that have been made available for access.
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4611,7 +4611,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
     >
       Remote access: Reference requests
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4624,7 +4624,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
     >
       For patrons who are unable to arrange for an on-campus visit to the Archives and Special Collections, reference questions may be directed to the Archivist remotely by email or phone. Generally, emails and phone calls will receive a response within 72 hours of receipt. Requests are typically filled in the order they are received.
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4650,7 +4650,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
         Use of patron information
       </Text>
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4663,7 +4663,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
     >
       Patrons requesting collection materials in person or remotely may be asked to provide certain information to the Archivist, such as contact information and topic(s) of research. This information is only used to track requests for statistical evaluations of collection use and will not be disclosed to outside organizations for any purpose. ACT will endeavor to protect the privacy of all patrons accessing collections.
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4689,7 +4689,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
         Fees
       </Text>
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4702,7 +4702,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
     >
       ACT reserves the right to charge an hourly rate for requests that require more than three hours of research on behalf of a patron (remote requests). Collection materials may be scanned and made available upon request, but digitization of certain materials may incur costs. Additionally, requests to publish, exhibit, or otherwise reproduce and display collection materials may incur use fees.
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4728,7 +4728,7 @@ exports[`never mutates input: listWithoutLevel 1`] = `
         Use of MIT-owned materials by patrons
       </Text>
     </Text>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -4750,8 +4750,8 @@ exports[`never mutates input: listWithoutLevel 1`] = `
         When permission is granted by MIT, patrons must comply with all guidelines provided by ACT for citations, credits, and copyright statements. Exclusive rights to examine or publish material will not be granted.
       </Text>
     </Text>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: marksAllTheWayDown 1`] = `
@@ -4771,7 +4771,7 @@ exports[`never mutates input: marksAllTheWayDown 1`] = `
 `;
 
 exports[`never mutates input: materializedImageSupport 1`] = `
-[
+<>
   <View
     style={
       {
@@ -4784,9 +4784,9 @@ exports[`never mutates input: materializedImageSupport 1`] = `
     >
       Also, images are pretty common.
     </Text>
-  </View>,
-  <View />,
-]
+  </View>
+  <View />
+</>
 `;
 
 exports[`never mutates input: messyLinkText 1`] = `
@@ -4892,7 +4892,7 @@ exports[`never mutates input: multipleSpans 1`] = `
 `;
 
 exports[`never mutates input: nestedLists 1`] = `
-[
+<>
   <View
     style={
       {
@@ -4905,7 +4905,7 @@ exports[`never mutates input: nestedLists 1`] = `
     >
       Span
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -5196,7 +5196,7 @@ exports[`never mutates input: nestedLists 1`] = `
         Item 8, level 1
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -5318,7 +5318,7 @@ exports[`never mutates input: nestedLists 1`] = `
         </View>
       </Text>
     </View>
-  </View>,
+  </View>
   <View
     style={
       {
@@ -5331,8 +5331,8 @@ exports[`never mutates input: nestedLists 1`] = `
     >
       Just a block
     </Text>
-  </View>,
-]
+  </View>
+</>
 `;
 
 exports[`never mutates input: overrideDefaultMarks 1`] = `
@@ -5400,7 +5400,7 @@ exports[`never mutates input: singleSpan 1`] = `
 `;
 
 exports[`never mutates input: styledListItems 1`] = `
-[
+<>
   <View
     style={
       {
@@ -5413,7 +5413,7 @@ exports[`never mutates input: styledListItems 1`] = `
     >
       Let's test some of these lists!
     </Text>
-  </View>,
+  </View>
   <View
     style={
       [
@@ -5536,6 +5536,6 @@ exports[`never mutates input: styledListItems 1`] = `
         Bullet 3
       </Text>
     </View>
-  </View>,
-]
+  </View>
+</>
 `;
