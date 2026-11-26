@@ -3,7 +3,8 @@
   "version": "4.0.0",
   "description": "Render Portable Text with React Native",
   "keywords": [
-    "portable-text"
+    "portable-text",
+    "react-native"
   ],
   "homepage": "https://github.com/portabletext/react-native-portabletext#readme",
   "bugs": {
