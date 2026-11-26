@@ -10,6 +10,8 @@ Uses [@portabletext/react](https://github.com/portabletext/react-portabletext) u
 npm install --save @portabletext/react-native
 ```
 
+React Native 0.79 or later is required, because `@portabletext/toolkit` 6.1 only ships `exports` and Metro resolves package exports by default only from 0.79.
+
 ## Basic usage
 
 ```js

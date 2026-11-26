@@ -1,4 +1,5 @@
 import type {PortableTextMarkComponent} from '@portabletext/react'
+import {uriLooksSafe} from '@portabletext/toolkit'
 import type {TypedObject} from '@portabletext/types'
 import {useCallback} from 'react'
 import {Linking, Text} from 'react-native'
@@ -12,10 +13,11 @@ interface DefaultLink extends TypedObject {
 
 const Link: PortableTextMarkComponent<DefaultLink> = ({children, value}) => {
   const href = value?.href
-  const onPress = useCallback(() => (href ? Linking.openURL(href) : undefined), [href])
+  const safeHref = href && uriLooksSafe(href) ? href : undefined
+  const onPress = useCallback(() => (safeHref ? Linking.openURL(safeHref) : undefined), [safeHref])
 
   return (
-    <Text onPress={onPress} style={markStyles.link}>
+    <Text onPress={safeHref ? onPress : undefined} style={markStyles.link}>
       {children}
     </Text>
   )
